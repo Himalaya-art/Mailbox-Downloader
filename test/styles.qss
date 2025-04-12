@@ -1,0 +1,182 @@
+/* 亮色主题样式 */
+QMainWindow[theme="light"] {
+    background-color: #f0f2f5;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+}
+QMainWindow[theme="light"]:hover {
+    border: 2px solid #4CAF50;
+}
+QGroupBox[theme="light"] {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding-top: 15px;
+    font-weight: 500;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    font-size: 13px;
+}
+QGroupBox[theme="light"] {
+    title-position: top left;
+    title-alignment: left;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+QLabel[theme="light"] {
+    font-size: 12px;
+    color: #333;
+}
+QTextEdit[theme="light"] {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 12px;
+}
+QPushButton[theme="light"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 6px;
+    min-width: 100px;
+    font-weight: 500;
+}
+QPushButton[theme="light"]:hover {
+    background-color: #45a049;
+}
+QPushButton[theme="light"]:pressed {
+    background-color: #3d8b40;
+}
+QPushButton[theme="light"]:disabled {
+    background-color: #cccccc;
+}
+QCheckBox[theme="light"] {
+    font-size: 12px;
+    color: #333;
+}
+QLineEdit[theme="light"] {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 12px;
+    background-color: white;
+    color: #333;
+    font-size: 13px;
+    font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+QLineEdit[theme="light"]:focus {
+    border: 2px solid #4CAF50;
+    background-color: #f8fff8;
+}
+QLineEdit[theme="light"]:hover {
+    border-color: #4CAF50;
+}
+QLineEdit[theme="light"]::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+QProgressBar[theme="light"] {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+}
+QProgressBar[theme="light"]::chunk {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+/* 主题切换按钮特殊样式 */
+QPushButton#themeButton {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 6px;
+    min-width: 120px;
+    font-weight: 500;
+}
+QPushButton#themeButton:hover {
+    background-color: #5a6268;
+}
+
+/* 下载按钮特殊样式 */
+QPushButton#confirm {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    min-width: 120px;
+    font-weight: 500;
+}
+QPushButton#confirm:hover {
+    background-color: #45a049;
+}
+QPushButton#confirm:disabled {
+    background-color: #cccccc;
+}
+
+/* 进度条特殊样式 */
+QProgressBar#mainProgress {
+    height: 24px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    font-size: 12px;
+    min-width: 200px;
+}
+QProgressBar#mainProgress::chunk {
+    background-color: #4CAF50;
+    border-radius: 12px;
+}
+
+/* 暗色主题样式 */
+QMainWindow[theme="dark"] {
+    background-color: #2d2d2d;
+    border: 1px solid #444;
+}
+QGroupBox[theme="dark"] {
+    background-color: #3a3a3a;
+    border: 1px solid #444;
+    color: #eee;
+    font-size: 13px;
+}
+QLabel[theme="dark"] {
+    color: #eee;
+}
+QTextEdit[theme="dark"] {
+    background-color: #3a3a3a;
+    color: #eee;
+    border: 1px solid #555;
+}
+QLineEdit[theme="dark"] {
+    background-color: #3a3a3a;
+    color: #eee;
+    border: 1px solid #555;
+}
+QLineEdit[theme="dark"]:focus {
+    border: 2px solid #4a6fa5;
+}
+QLineEdit[theme="dark"]:hover {
+    border-color: #4a6fa5;
+}
+QCheckBox[theme="dark"] {
+    color: #eee;
+}
+QPushButton[theme="dark"] {
+    background-color: #4a6fa5;
+}
+QPushButton[theme="dark"]:hover {
+    background-color: #3d5d8c;
+}
+QProgressBar[theme="dark"] {
+    background-color: #3a3a3a;
+    border: 1px solid #555;
+}
+QProgressBar[theme="dark"]::chunk {
+    background-color: #4a6fa5;
+}

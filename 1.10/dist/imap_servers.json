@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "qq.com": "imap.qq.com",
+        "gmail.com": "imap.gmail.com",
+        "163.com": "imap.163.com",
+        "outlook.com": "imap-mail.outlook.com",
+        "hotmail.com": "imap-mail.outlook.com",
+        "yahoo.com": "imap.mail.yahoo.com",
+        "sina.com": "imap.sina.com",
+        "sohu.com": "imap.sohu.com"
+    }
+}

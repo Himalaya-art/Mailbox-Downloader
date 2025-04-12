@@ -1,0 +1,243 @@
+Received: from dille.dlsite.com (dille.dlsite.com [54.249.39.253])
+	by newxmmxszb1-6.qq.com (NewMX) with SMTP id 61F264E0
+	for <3297839541@qq.com>; Tue, 06 Dec 2022 11:24:31 +0800
+X-QQ-mid: xmmxszb1-6t1670297071tsmbesi9u
+X-QQ-XMAILINFO: OEwe1wxmQPEpTU+fSQudWwzRO3POVXJ6k+Y5dSyMrCoVhZMnh0oUcLdzu5MtCK
+	 322Xay+5EqRSEq6uJrEiNDwS9sA1DrPakD73RVnJEY+YkwyB/C63DK5pLcAuKCkFvp+xNZ8LRA8J
+	 nAAcRbJ6bxWahAQTEAPuMnkQbgMv/1YPq5XTE6S4yyn3/kg5FPVbWrfKDbp7V7x4Mcr5YhfGPhbZ
+	 bbgI++ROiK+3U81TyDzvqd/1rO7TjALFPCBPTc2xkNXEV02aJ43vFG/PBN2WkfycfE9bWxLbhqxw
+	 m9K4a4wFhEUTP4KFNk8skTWf2YMAFqQhT3UkJL81H7HQALbaQt/204SueDo2DWm2gDCwvZWwIoiH
+	 XfLaITLj2Ly8kkfZ8n531FmVY8M8gPBA678BkuqHcc9Kml8BlP1cKmY++f+1KicN1XDu5sv7GUT9
+	 sCfl2Ok+7CxJ5KRjW6LXDgmSo+E4DKpHA+jvvgmhcSGYbPs69sOmGLff5+MsnK+19D0c2oQA3Y2Q
+	 ayKPtj+poumAPtkp8KDC+imtw99nCUso8sV7vtpCR5a0pU1FMNdGsnlZ8IIMefhTtbr9EgAGAc+t
+	 93NJ+H2gMrrxJfiWMVZoJsGOCcXQ+GzEAzifhl5nI7g8yC7EEbJkx5qMEs9zhUHN/myA5JyffsEN
+	 H3++3Ndd8rjcbSj8QbKoVn5lwGwKmOUdCfgEHtd3iUYhAynD82WMIFNkeVzNgmbLcP7+CDz0s+yq
+	 Hf1pd1Ht7/YwvFbbmaEuAdpheC1MSII9p9ga6/5s742t6z+vKiR9JTsxmvQP5fN+B/RjEZZRSAu9
+	 kQmWx0SfrDOFsCPiOaKUGMhTfZjoGlRdx8xc14YBgrxpBTTg36ZUNtEDWukyGRQwFMon7Ik6WLiY
+	 f55TS6POdsaoNoUD6COML1EJrPg5mHTJO24FA46bYQ4r/nbuWgtNfDUI+i7Kl066eCHqrsY3osqP
+	 DycwhoJ0fxJCmoxSJZ9V4bq2UqdV8IpGQyjwTjZMxOCfOt/ji52ZZpomM5CqZUHx+IxJxIXIljqk
+	 LQvKinoNNx8mT4hNnqoEGZkqy9q5zTE+FRX16fk+TqLeJfDPvre6AK2DhTNTz439jbEQssLwcKnK
+	 kjaWa6/yb7V4T2Ne1mFdHUVWPuqSCMesC0a8nazMUZwWXnL0yOeav6mX7YMbTx91tN7X09XlcFus
+	 4KCTEyJaXc5lMb50gxHpp93mai
+Received: from login.dlsite.com (apl101.vpc.dlsite.com [10.11.21.224])
+	by dille.dlsite.com (Postfix) with ESMTP id 3D5E525B2D
+	for <3297839541@qq.com>; Tue,  6 Dec 2022 12:24:31 +0900 (JST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=dlsite.com;
+	s=dille-201702; t=1670297071;
+	bh=f5lh7YMXJlNbS7PkGgqnO5g74V3V+oNKO8OsAZmKNfQ=;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type;
+	b=cWeUNBcGsCDhOguw1NO/m9X8c9DXJNqw1fHnkVkFpP9dKyn8twXiVnPJK0egCaVky
+	 cbRm/FHcs+2eHvMN8Tn+F4KS/aFBKjj1vqaK75ZooLoASopYN8y9symiDS50ILMlxk
+	 L8Yu+z8D5xKZuye9utV3rUi0Dpl2W4sJ8ODzFS4o=
+Message-ID: <ea21efd4bc28048833ac54e6ce5dd980@login.dlsite.com>
+Date: Tue, 06 Dec 2022 12:24:31 +0900
+Subject: =?ISO-2022-JP?B?GyRCIVobKEJETHNpdGUbJEIhWyVmITwlNiE8RVBPPzQwTjskTiQqQ04kaSQ7GyhC?=
+From: =?ISO-2022-JP?B?RExzaXRl?= <support@dlsite.com>
+To: 3297839541@qq.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1670297071_7d1e4f8546d7d7739a78568273663ee7_=_"
+
+
+--_=_swift_1670297071_7d1e4f8546d7d7739a78568273663ee7_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+DLsite=E3=82=A2=E3=82=AB=E3=82=A6=E3=83=B3=E3=83=88=E3=82=92=E3=81=94=
+=E5=88=A9=E7=94=A8=E3=81=84=E3=81=9F=E3=81=A0=E3=81=8D=E3=80=81=E3=81=BE=
+=E3=81=93=E3=81=A8=E3=81=AB=E3=81=82=E3=82=8A=E3=81=8C=E3=81=A8=E3=81=86=
+=E3=81=94=E3=81=96=E3=81=84=E3=81=BE=E3=81=99=E3=80=82
+=E3=81=8A=E5=AE=
+=A2=E6=A7=98=E3=81=AEDLsite=E3=82=A2=E3=82=AB=E3=82=A6=E3=83=B3=E3=83=88=
+=E3=81=B8=E3=81=AE=E3=83=A6=E3=83=BC=E3=82=B6=E3=83=BC=E7=99=BB=E9=8C=B2=
+=E3=81=8C=E5=AE=8C=E4=BA=86=E3=81=84=E3=81=9F=E3=81=97=E3=81=BE=E3=81=97=
+=E3=81=9F=E3=80=82
+
+=E3=83=AD=E3=82=B0=E3=82=A4=E3=83=B3ID =EF=BC=9A 32=
+97839541@qq.com
+
+=E3=83=A6=E3=83=BC=E3=82=B6=E3=83=BC=E3=83=AD=E3=82=
+=B0=E3=82=A4=E3=83=B3=E3=81=97=E3=81=A6=E3=81=84=E3=81=9F=E3=81=A0=E3=81=
+=8F=E4=BA=8B=E3=81=A7=E3=80=81
+=E3=80=8CDLsite=E3=80=8D=E3=80=8CDLsite=
+=E3=81=AB=E3=81=98GAME=E3=80=8D=E3=80=8CDL=E3=83=81=E3=83=A3=E3=83=B3=
+=E3=83=8D=E3=83=AB=E3=80=8D=E3=80=8CCi-en=E3=80=8D=E3=80=8C=E3=83=88=
+=E3=83=AA=E3=82=AA=E3=82=AD=E3=83=8B=E3=80=8D=E3=81=AA=E3=81=A9
+=E6=A0=
+=AA=E5=BC=8F=E4=BC=9A=E7=A4=BE=E3=82=A8=E3=82=A4=E3=82=B7=E3=82=B9=E6=8F=
+=90=E4=BE=9B=E3=81=AE=E3=82=B5=E3=83=BC=E3=83=93=E3=82=B9=E3=82=92=E5=90=
+=8C=E4=B8=80ID=E3=81=A7=E3=81=8A=E6=A5=BD=E3=81=97=E3=81=BF=E3=81=84=
+=E3=81=9F=E3=81=A0=E3=81=91=E3=81=BE=E3=81=99=E3=80=82
+
+=E3=83=AD=
+=E3=82=B0=E3=82=A4=E3=83=B3ID=E3=83=BB=E3=83=91=E3=82=B9=E3=83=AF=E3=83=
+=BC=E3=83=89=E3=81=AF=E3=80=81=E3=81=8A=E5=BF=98=E3=82=8C=E3=81=AA=E3=81=
+=8D=E3=82=88=E3=81=86=E5=A4=A7=E5=88=87=E3=81=AB=E4=BF=9D=E7=AE=A1=E3=82=
+=92=E3=81=8A=E9=A1=98=E3=81=84=E3=81=84=E3=81=9F=E3=81=97=E3=81=BE=E3=81=
+=99=E3=80=82
+
+--------------------------------------------------
+DLsi=
+te https://www.dlsite.com
+DLsite=E3=81=AB=E3=81=98GAME https://www.nijiyo=
+me.com
+Ci-en https://ci-en.net
+=E3=83=88=E3=83=AA=E3=82=AA=E3=82=AD=
+=E3=83=8B : https://triokini.com
+
+=E3=81=8A=E5=95=8F=E3=81=84=E5=90=
+=88=E3=82=8F=E3=81=9B : https://cs.dlsite.com/hc/ja
+=E9=81=8B=E5=96=B6=
+=EF=BC=9A=E6=A0=AA=E5=BC=8F=E4=BC=9A=E7=A4=BE=E3=82=A8=E3=82=A4=E3=82=B7=
+=E3=82=B9
+--------------------------------------------------
+
+--_=_swift_1670297071_7d1e4f8546d7d7739a78568273663ee7_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html lang=3D"ja">
+<head>
+  <meta http-eq=
+uiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+  <meta name=
+=3D"viewport" content=3D"initial-scale=3D1.0">
+  <meta name=3D"format-det=
+ection" content=3D"telephone=3Dno">
+  <title>=E3=80=90DLsite=E3=80=91=
+=E3=83=A6=E3=83=BC=E3=82=B6=E3=83=BC=E7=99=BB=E9=8C=B2=E5=AE=8C=E4=BA=86=
+=E3=81=AE=E3=81=8A=E7=9F=A5=E3=82=89=E3=81=9B</title>
+  <style type=3D"te=
+xt/css">
+    /* =E5=B9=85600px=E6=9C=AA=E6=BA=80=E3=81=AE=E3=82=B9=
+=E3=82=BF=E3=82=A4=E3=83=AB
+    -----------------------------------------=
+------------ */
+    @media  screen and (max-width: 599px) {
+      /* --=
+--- =E5=B9=85600px=E3=83=86=E3=83=BC=E3=83=96=E3=83=AB ----- */
+      tab=
+le.container {
+        width: 100% !important;
+        max-width: 100% =
+!important;
+      }
+
+      .content_header {
+        text-align: ce=
+nter !important;
+      }
+    }
+  </style>
+</head>
+<body leftmargi=
+n=3D"0" topmargin=3D"0" marginwidth=3D"0" marginheight=3D"0" bgcolor=3D"#F0=
+F0F0">
+<!--[if gte mso 9]><table width=3D"600" style=3D"margin: 0 auto;">=
+<tr><td><![endif]-->
+<table class=3D"bg_wrap" width=3D"100%" height=3D"10=
+0%" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#F0F0F0" style=3D"backgr=
+ound-color: #f0f0f0; border: 0; border-collapse: collapse; border-spacing: =
+0; mso-table-lspace: 0; mso-table-rspace: 0; text-align: center;">
+  <tbo=
+dy>
+  <tr>
+    <td align=3D"center" style=3D"background-color: #F0F0F0;=
+ border-collapse: collapse; vertical-align: top;">
+      <table class=3D"=
+container" cellpadding=3D"0" cellspacing=3D"0" style=3D"background-color: #=
+fff; border: 0; border-collapse: collapse; border-spacing: 0; max-width: 60=
+0px; mso-table-lspace: 0; mso-table-rspace: 0; padding: 0; table-layout: fi=
+xed; width: 100%; *width: 600px;">
+        <tbody>
+        <tr>
+     =
+     <td class=3D"content_header" style=3D"background-color: #3c3c3c; borde=
+r-collapse: collapse; padding: 10px 15px; text-align: right; vertical-align=
+: top;"><img src=3D"https://login.dlsite.com/assets/login/img/logo-mail-dls=
+ite.png" width=3D"60" height=3D"17" style=3D"-ms-interpolation-mode: bicubi=
+c;"></td>
+        </tr>
+
+            <tr>
+  <td class=3D"content_bo=
+dy_01" style=3D"background-color: #fff; border-collapse: collapse; color: #=
+333; font-size: 13px; line-height: 1.4; padding: 15px 15px 20px; text-align=
+: left; vertical-align: top;">
+        DLsite=E3=82=A2=E3=82=AB=E3=82=
+=A6=E3=83=B3=E3=83=88=E3=82=92=E3=81=94=E5=88=A9=E7=94=A8=E3=81=84=E3=81=
+=9F=E3=81=A0=E3=81=8D=E3=80=81=E3=81=BE=E3=81=93=E3=81=A8=E3=81=AB=E3=81=
+=82=E3=82=8A=E3=81=8C=E3=81=A8=E3=81=86=E3=81=94=E3=81=96=E3=81=84=E3=81=
+=BE=E3=81=99=E3=80=82<br>
+    =E3=81=8A=E5=AE=A2=E6=A7=98=E3=81=AEDLsite=
+=E3=82=A2=E3=82=AB=E3=82=A6=E3=83=B3=E3=83=88=E3=81=B8=E3=81=AE=E3=83=A6=
+=E3=83=BC=E3=82=B6=E3=83=BC=E7=99=BB=E9=8C=B2=E3=81=8C=E5=AE=8C=E4=BA=86=
+=E3=81=84=E3=81=9F=E3=81=97=E3=81=BE=E3=81=97=E3=81=9F=E3=80=82
+    <div =
+class=3D"id_field" style=3D"background-color: #eee; margin: 15px 0; padding=
+: 15px; text-align: center;">=E3=83=AD=E3=82=B0=E3=82=A4=E3=83=B3ID =
+=EF=BC=9A <span style=3D"padding: 0 10px;">3297839541@qq.com</span></div>=
+
+    =E3=83=A6=E3=83=BC=E3=82=B6=E3=83=BC=E3=83=AD=E3=82=B0=E3=82=A4=
+=E3=83=B3=E3=81=97=E3=81=A6=E3=81=84=E3=81=9F=E3=81=A0=E3=81=8F=E3=81=93=
+=E3=81=A8=E3=81=A7=E3=80=81=E3=80=8CDLsite=E3=80=8D=E3=80=8CDLsite=E3=81=
+=AB=E3=81=98GAME=E3=80=8D=E3=80=8CDL=E3=83=81=E3=83=A3=E3=83=B3=E3=83=8D=
+=E3=83=AB=E3=80=8D=E3=80=8CCi-en=E3=80=8D=E3=80=8C=E3=83=88=E3=83=AA=
+=E3=82=AA=E3=82=AD=E3=83=8B=E3=80=8D=E3=81=AA=E3=81=A9=E6=A0=AA=E5=BC=8F=
+=E4=BC=9A=E7=A4=BE=E3=82=A8=E3=82=A4=E3=82=B7=E3=82=B9=E6=8F=90=E4=BE=9B=
+=E3=81=AE=E3=82=B5=E3=83=BC=E3=83=93=E3=82=B9=E3=82=92=E5=90=8C=E4=B8=80ID=
+=E3=81=A7=E3=81=8A=E6=A5=BD=E3=81=97=E3=81=BF=E3=81=84=E3=81=9F=E3=81=A0=
+=E3=81=91=E3=81=BE=E3=81=99=E3=80=82<br>
+    <br style=3D"margin-bottom: =
+0;">
+    =E3=83=AD=E3=82=B0=E3=82=A4=E3=83=B3ID=E3=83=BB=E3=83=91=
+=E3=82=B9=E3=83=AF=E3=83=BC=E3=83=89=E3=81=AF=E3=80=81=E3=81=8A=E5=BF=98=
+=E3=82=8C=E3=81=AA=E3=81=8D=E3=82=88=E3=81=86=E5=A4=A7=E5=88=87=E3=81=AB=
+=E4=BF=9D=E7=AE=A1=E3=82=92=E3=81=8A=E9=A1=98=E3=81=84=E3=81=84=E3=81=9F=
+=E3=81=97=E3=81=BE=E3=81=99=E3=80=82      </td>
+</tr>
+
+        <tr>=
+
+          <td class=3D"content_footer" style=3D"background-color: #ddddd=
+d; border-collapse: collapse; color: #333; font-size: 11px; line-height: 1.=
+8; padding: 15px; vertical-align: bottom;">
+            DLsite : <a href=
+=3D"https://www.dlsite.com" target=3D"_blank" style=3D"color: #0070c9; text=
+-decoration: none;">https://www.dlsite.com</a><br>
+            DLsite=
+=E3=81=AB=E3=81=98GAME : <a href=3D"https://www.nijiyome.com" target=3D"_bl=
+ank" style=3D"color: #0070c9; text-decoration: none;">https://www.nijiyome.=
+com</a><br>
+            Ci-en : <a href=3D"https://ci-en.net" target=3D"_=
+blank" style=3D"color: #0070c9; text-decoration: none;">https://ci-en.net</=
+a><br>
+            =E3=83=88=E3=83=AA=E3=82=AA=E3=82=AD=E3=83=8B : <a hre=
+f=3D"https://triokini.com" target=3D"_blank" style=3D"color: #0070c9; text-=
+decoration: none;">https://triokini.com</a><br>
+            <br>
+      =
+      =E3=81=8A=E5=95=8F=E3=81=84=E5=90=88=E3=82=8F=E3=81=9B : <a href=3D"h=
+ttps://cs.dlsite.com/hc/ja" target=3D"_blank" style=3D"color: #0070c9; text=
+-decoration: none;">https://cs.dlsite.com/hc/ja</a><br>
+            =
+=E9=81=8B=E5=96=B6 : =E6=A0=AA=E5=BC=8F=E4=BC=9A=E7=A4=BE=E3=82=A8=E3=82=
+=A4=E3=82=B7=E3=82=B9          </td>
+        </tr>
+        </tbody>
+ =
+     </table>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<!--[if gte m=
+so 9]></center></td></tr></table><![endif]-->
+</body>
+</html>
+
+
+--_=_swift_1670297071_7d1e4f8546d7d7739a78568273663ee7_=_--
+

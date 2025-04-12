@@ -1,0 +1,186 @@
+Received: from a8-51.smtp-out.amazonses.com (a8-51.smtp-out.amazonses.com [54.240.8.51])
+	by newxmmxszb1-1.qq.com (NewMX) with SMTP id 566B5A73
+	for <3297839541@qq.com>; Sun, 17 Sep 2023 02:21:38 +0800
+X-QQ-mid: xmmxszb1-1t1694888498tiakrz1hr
+Sender: 0100018a9f3a1453-b5d03630-8bb8-4220-977a-475187e0663a-000000@amazonses
+	 .com
+X-QQ-CSender: 0100018a9f3a1453-b5d03630-8bb8-4220-977a-475187e0663a-000000@ama
+	 zonses.com
+X-QQ-XMAILINFO: NwuAg3qwKjaTesoGX+bs2MOl2wRCIB0E6LF5wYj3Nuwomk+6JUH+6m/QOThLSb
+	 +abfsrY6ZhINtln8zZpnfYWdskTP2ZmqWduWUzDq/zAjv5zD26Om5XUu2JQng66vTIXy+8BL4OI0
+	 bQYREdfkoBjh2mdYnh7Dskx3glkNbPmF6Qm9/zcQMRC2jk1Fv4q3diGaaUrsE1waEFiadpNeBzgL
+	 mo910hPyXhSRL0exlj5UpDGSs8JkccnszeRPUwklI2UMZhOkHSUk+BRGE/qCR+ZDeZLh0ylBObTT
+	 k6yM+Vty4ZbFNtJyz8uUN9iLx8SlwJObPxtPqv/jbV9dby/Ou3p9XixZlw4Xae5WHmZO4fdg37a8
+	 /+FzYRQCLVAkW3AwJ9CerFbH3Hm2HvgTxyHEzNkC3cIDfsy+yobr4XHUxKESfPfyfLh7F6KyuTaS
+	 9zz3fO2lB3hpRlvQjZa7hSOnuEhs4DBmSCei2aaU951uUWMqCKjUFcC8V+hREfrSi/EJ82YjENUF
+	 DPUQW6v8dho0a4ngHGLfBiyjOTNNUAkuqDr4hnhshoK67cyZotbt0gWTEMfTtKeq60lp9gmw8B2s
+	 bYW+A0hHUU+kqASiCiw2WqogAjYs6CyhfrtvRdJ726v057rWMQ0N5Vi1Y+Ba0uxrFmxXewcD2YwU
+	 Z2PwcY9C+2vKysLa/j/0g+a7e9dkQ5YZLmvq7ADxy8GT/t8cwMn3gIy7hpP0yRk85c7B2YVOD4At
+	 jvyfItp+fJR1Z6eGmBI1LyF2uPdbApQURVDsuRoftJ4Zg3wOuN1NhW/cuY2KCzxDiOdhYj9H9tD1
+	 I6N+6uN/Oncwa1Trh7faq93o/FsMiykboWSdBBGWUVOE7FhqMPPjYpjLLn8m6UhKxJ2q1j+D8b0Q
+	 y7i8ai1bd6gXRLUrNqLDmK1TG7LixTPg7wXYSw9PRY1ClupHloCeOHOG6/iqDK9W1MPgP6b5U39M
+	 n2BA2LvvcMj0CWlLQMrLpQbW030as9jEFaKaCz/C0pMZ/CmdchsHkbI/RV6t4IP+jT4PGHYF3mH5
+	 6B60mFuwlmODjnXxreZmI6If1RxYHr8lNpu4Grb7+67wfJgGmy2rGk8wqXCF7quAhBSe+NlzYFFa
+	 JJfIaNmNJiBVG2oIc34d/Gw54jLhWXYd5YbLvMy/XIsTA/8VdT/lS0Ron+AZexT0980DbcuL8Pnd
+	 YL/isixp+Ks6BgY4fRs+4A4TffgWwTbDglc49hy7Q9DXUWwdNN+XiaytDxku77N41vjjDcNTJPZZ
+	 Zq524tAFqFpfIpAzmwrcNO3kaPQoRbuP9z0A==
+X-QQ-XMRINFO: NyFYKkN4Ny6FSmKK/uo/jdU=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=y4xsguaogh42jufosfucpekwkuwsqkg7; d=f95zone.com; t=1694888498;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type;
+	bh=lMDOCxurl7u215eERO1vx8Z0HtWgNUt1w9pO2C8CzSI=;
+	b=UiWmjbnl6uMfU7AxOlrynZzsUqMXdoIm++e5VzdFxe54MYK3436OtHAFCu1dX06F
+	Zzds28DyvUM3e3XhtDi/M2Pc/F25SEUhg8A/sJNeVyPRE3AKVrmiBXLquRZGcs73XUz
+	F2FTr/316gWOJC4mWWLO2d5V+nG8OWaQVOVW7fB0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1694888498;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:Feedback-ID;
+	bh=lMDOCxurl7u215eERO1vx8Z0HtWgNUt1w9pO2C8CzSI=;
+	b=PFTIZDq/NN/T8BNSubjdqGVsmsjg7spqFF+sNrZM++Eb2dWADwJbeeqOjzmfuvfz
+	u/sSoB656N+6sLs5/Sbilj07o/Mb8I/TmK4bnbTKuM8ifA2LjHoyrRMpGt7shQQWC4C
+	QU4quFqm2C8gyMqy5JFFdXke/wI+m7itvLHw7Sks=
+Message-ID: <0100018a9f3a1453-b5d03630-8bb8-4220-977a-475187e0663a-000000@email.amazonses.com>
+Date: Sat, 16 Sep 2023 18:21:38 +0000
+Subject: F95zone - Password reset request
+From: F95zone <admin@f95zone.com>
+To: Him5484 <3297839541@qq.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1694888497_94af0e90132882abb3cbeb6473210993_=_"
+X-To-Validate: 911340a8+3297839541@qq.com
+Feedback-ID: 1.us-east-1.cxFYBVCQy/KkMjACFmar04ZAZ5gmyoqsGJQQcbbMGhI=:AmazonSES
+X-SES-Outgoing: 2023.09.16-54.240.8.51
+
+
+--_=_swift_v4_1694888497_94af0e90132882abb3cbeb6473210993_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Him5484, in order to reset your password at F95zone (https://f95zone.to/), =
+you need to click the button below. This will allow you to choose a new pas=
+sword.
+
+Reset password (https://f95zone.to/lost-password/him5484.611608=
+8/confirm?c=3D3mTH4Ft33tHcfI-e)
+
+If you did not request this email, you=
+ may safely ignore it.
+
+-----------------------------
+
+Visit F95zon=
+e: https://f95zone.to/
+
+--_=_swift_v4_1694888497_94af0e90132882abb3cbeb6473210993_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en-US" dir=3D"LTR" style=3D"font-size: 62.5=
+%;">
+<head>
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8">
+=09<base href=3D"https://f95zone.to/">
+=09<meta name=
+=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1">
+=09<me=
+ta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+=09<meta name=3D=
+"format-detection" content=3D"telephone=3Dno">
+=09<title>F95zone - Passwo=
+rd reset request</title>
+</head>
+<body dir=3D"LTR" leftmargin=3D"0" top=
+margin=3D"0" marginwidth=3D"0" marginheight=3D"0" style=3D"margin: 0; paddi=
+ng: 0; word-wrap: break-word; -ms-text-size-adjust: 100%; -webkit-text-size=
+-adjust: 100%; background-color: #181a1d; font-size: 14px; font-family: Ope=
+n Sans,Verdana,Arial,sans-serif; line-height: 1.4; color: #eeeeee;">
+
+<=
+table id=3D"bodyTable" border=3D"0" width=3D"100%" height=3D"100%" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"border-spacing: 0; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; border-collapse: collapse; margin: 0; padding: 0=
+; background-color: #181a1d; height: 100%; width: 100%;">
+<tr>
+=09<td a=
+lign=3D"center" valign=3D"top" id=3D"bodyTableContainer" style=3D"border-co=
+llapse: collapse; background-color: #181a1d;">
+=09=09<table border=3D"0" =
+width=3D"600" cellpadding=3D"0" cellspacing=3D"0" class=3D"container" dir=
+=3D"LTR" style=3D"border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; border-collapse: collapse; width: 100%; max-width: 600px;">
+=09=
+=09<tr>
+=09=09=09<td class=3D"header" align=3D"center" valign=3D"top" sty=
+le=3D"border-collapse: collapse; color: #eeeeee; padding: 10px 14px; border=
+-top-left-radius: 8px; border-top-right-radius: 8px; font-family: Open Sans=
+,Verdana,Arial,sans-serif; font-size: 23.5px; line-height: 1.4;">
+=09=09=
+=09=09<a href=3D"https://f95zone.to/" style=3D"text-decoration: none; color=
+: #eeeeee;">F95zone</a>
+=09=09=09</td>
+=09=09</tr>
+=09=09<tr>
+=09=
+=09=09<td class=3D"content" align=3D"left" valign=3D"top" style=3D"border-c=
+ollapse: collapse; background-color: #242629; border-radius: 4px; color: #e=
+eeeee; padding: 14px; font-size: 14px; font-family: Open Sans,Verdana,Arial=
+,sans-serif; line-height: 1.4;">
+
+
+
+=09
+
+<p style=3D"margin-top=
+: 0;">Him5484, in order to reset your password at <a href=3D"https://f95zon=
+e.to/" style=3D"color: #ec5555; text-decoration: none;">F95zone</a>, you ne=
+ed to click the button below. This will allow you to choose a new password.=
+</p>
+
+<p><a href=3D"https://f95zone.to/lost-password/him5484.6116088/co=
+nfirm?c=3D3mTH4Ft33tHcfI-e" class=3D"button" style=3D"display: inline-flex;=
+ padding: 5px 10px; background-color: transparent; font-weight: 400; border=
+-radius: 4px; padding-top: 0; padding-right: 12px; padding-bottom: 0; paddi=
+ng-left: 12px; text-align: center; outline: none; line-height: 32px; height=
+: 32px; text-decoration: none; align-items: center; justify-content: center=
+; cursor: pointer; box-sizing: content-box; -webkit-appearance: none; will-=
+change: box-shadow; transition: all .3s cubic-bezier(.25, .8, .25, 1); whit=
+e-space: nowrap; text-shadow: 0px 0px 3px #811f24; color: #fff; background:=
+ #ec5555; text-transform: uppercase; box-shadow: 0 4px 15px 0 rgba(0,0,0,0.=
+2); border: none; font-size: 14px;">Reset password</a></p>
+
+
+=09<p st=
+yle=3D"margin-bottom: 0;">If you did not request this email, you may safely=
+ ignore it.</p>
+
+=09
+
+
+=09=09=09</td>
+=09=09</tr>
+=09=09<tr>=
+
+=09=09=09<td class=3D"footer" align=3D"center" valign=3D"top" style=3D"b=
+order-collapse: collapse; padding: 10px 14px; text-align: center; color: #9=
+398a0; font-size: 14px; font-family: Open Sans,Verdana,Arial,sans-serif; li=
+ne-height: 1.4;">
+=09=09=09=09<div><a href=3D"https://f95zone.to/" style=
+=3D"color: #9398a0; text-decoration: underline;">Visit F95zone</a></div>
+=
+
+=09=09=09=09
+=09=09=09</td>
+=09=09</tr>
+=09=09</table>
+=09</td>=
+
+</tr>
+</table>
+
+</body>
+</html>
+
+--_=_swift_v4_1694888497_94af0e90132882abb3cbeb6473210993_=_--
+

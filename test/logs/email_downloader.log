@@ -1,0 +1,43 @@
+2025-03-30 15:44:12,633 - root - INFO - 日志配置完成
+2025-03-30 15:46:00,416 - root - INFO - 日志配置完成
+2025-03-30 15:46:46,081 - root - CRITICAL - 未捕获异常
+Traceback (most recent call last):
+  File "D:\Users\Himal\Documents\VS Code\Python\邮箱下载器\test\ui_EmailDownload.py", line 168, in <lambda>
+    self.confirm.clicked.connect(lambda: MainWindow.start_download())
+AttributeError: 'QMainWindow' object has no attribute 'start_download'
+2025-03-30 15:46:46,084 - root - CRITICAL - 未捕获异常
+Traceback (most recent call last):
+  File "D:\Users\Himal\Documents\VS Code\Python\邮箱下载器\test\emailDownload.py", line 133, in handle_start_download
+    ui.start_download(window)
+AttributeError: 'Ui_MainWindow' object has no attribute 'start_download'
+2025-03-30 15:46:59,662 - root - CRITICAL - 未捕获异常
+Traceback (most recent call last):
+  File "D:\Users\Himal\Documents\VS Code\Python\邮箱下载器\test\ui_EmailDownload.py", line 168, in <lambda>
+    self.confirm.clicked.connect(lambda: MainWindow.start_download())
+AttributeError: 'QMainWindow' object has no attribute 'start_download'
+2025-03-30 15:46:59,663 - root - CRITICAL - 未捕获异常
+Traceback (most recent call last):
+  File "D:\Users\Himal\Documents\VS Code\Python\邮箱下载器\test\emailDownload.py", line 133, in handle_start_download
+    ui.start_download(window)
+AttributeError: 'Ui_MainWindow' object has no attribute 'start_download'
+2025-03-30 16:44:29,826 - root - INFO - 日志配置完成
+2025-03-30 16:45:09,670 - root - CRITICAL - 未捕获异常
+Traceback (most recent call last):
+  File "d:\Users\Himal\Documents\VS Code\Python\邮箱下载器\test\emailDownload.py", line 133, in handle_start_download
+    ui.start_download(window)
+TypeError: start_download() takes 1 positional argument but 2 were given
+2025-03-30 16:45:34,992 - root - INFO - 日志配置完成
+2025-03-30 16:49:53,625 - root - INFO - 日志配置完成
+2025-03-30 16:50:40,859 - root - CRITICAL - 未捕获异常
+Traceback (most recent call last):
+  File "d:\Users\Himal\Documents\VS Code\Python\邮箱下载器\test\emailDownload.py", line 133, in handle_start_download
+    ui.start_download(window)
+TypeError: start_download() takes 1 positional argument but 2 were given
+2025-03-30 16:51:10,424 - root - CRITICAL - 未捕获异常
+Traceback (most recent call last):
+  File "d:\Users\Himal\Documents\VS Code\Python\邮箱下载器\test\emailDownload.py", line 133, in handle_start_download
+    ui.start_download(window)
+TypeError: start_download() takes 1 positional argument but 2 were given
+2025-03-30 17:02:41,321 - root - INFO - 日志配置完成
+2025-03-30 17:20:27,489 - root - INFO - 日志配置完成
+2025-03-30 17:20:48,926 - root - INFO - 日志配置完成

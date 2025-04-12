@@ -1,0 +1,128 @@
+2025-03-30 02:25:05,111 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:25:05,135 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:25:05,208 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:25:05,208 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:25:06,480 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:25:06,482 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:25:07,882 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:25:08,059 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:25:08,062 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:25:09,942 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:25:10,035 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:25:10,036 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:25:10,038 - INFO - 成功下载 4 封邮件
+2025-03-30 02:58:40,228 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:58:40,336 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:58:40,961 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:58:40,966 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:58:41,028 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:58:41,029 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:58:41,598 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:58:41,706 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:58:41,707 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:58:43,836 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:58:43,940 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:58:43,942 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:58:43,946 - INFO - 成功下载 4 封邮件
+2025-03-30 03:02:46,000 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 03:02:46,137 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 03:02:46,232 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 03:02:46,234 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 03:02:46,258 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 03:02:47,812 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 03:02:47,813 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 03:02:47,883 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 03:02:47,885 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 03:02:50,369 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 03:02:50,483 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 03:02:50,484 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 03:05:58,993 - INFO - 成功下载 4 封邮件
+2025-03-30 03:06:31,591 - INFO - 成功下载 4 封邮件
+2025-03-30 03:27:38,079 - ERROR - IMAP连接错误: 'EmailDownloadUI' object has no attribute 'resumeDownload'
+2025-03-30 03:27:38,185 - ERROR - 下载邮件失败: 'EmailDownloadUI' object has no attribute 'resumeDownload'
+[2025-03-30 15:44:12] 主题已切换为: light
+[2025-03-30 15:46:00] 主题已切换为: light
+[2025-03-30 15:46:48] 主题已切换为: dark
+[2025-03-30 15:46:48] 主题已切换为: dark
+[2025-03-30 15:46:48] 主题已切换为: light
+[2025-03-30 15:46:48] 主题已切换为: light
+[2025-03-30 15:46:50] 主题已切换为: dark
+[2025-03-30 15:46:50] 主题已切换为: dark
+[2025-03-30 15:46:50] 主题已切换为: light
+[2025-03-30 15:46:50] 主题已切换为: light
+[2025-03-30 15:46:51] 主题已切换为: dark
+[2025-03-30 15:46:51] 主题已切换为: dark
+[2025-03-30 15:46:51] 主题已切换为: light
+[2025-03-30 15:46:51] 主题已切换为: light
+[2025-03-30 15:46:51] 主题已切换为: dark
+[2025-03-30 15:46:51] 主题已切换为: dark
+[2025-03-30 15:46:51] 主题已切换为: light
+[2025-03-30 15:46:51] 主题已切换为: light
+[2025-03-30 15:46:52] 主题已切换为: dark
+[2025-03-30 15:46:52] 主题已切换为: dark
+[2025-03-30 15:46:52] 主题已切换为: light
+[2025-03-30 15:46:52] 主题已切换为: light
+[2025-03-30 16:44:29] 主题已切换为: light
+[2025-03-30 16:44:30] 密码解密失败: 
+[2025-03-30 16:44:30] 密码解密失败: 
+[2025-03-30 16:44:43] 保存附件: mail.eml
+[2025-03-30 16:44:43] 邮件b'4'共下载1个附件
+[2025-03-30 16:44:44] 保存附件: mail.eml
+[2025-03-30 16:44:44] 邮件b'5'共下载1个附件
+[2025-03-30 16:45:04] 处理邮件b'73'失败: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+[2025-03-30 16:45:10] 主题已切换为: dark
+[2025-03-30 16:45:10] 主题已切换为: dark
+[2025-03-30 16:45:10] 主题已切换为: light
+[2025-03-30 16:45:10] 主题已切换为: light
+[2025-03-30 16:45:11] 主题已切换为: dark
+[2025-03-30 16:45:11] 主题已切换为: dark
+[2025-03-30 16:45:11] 主题已切换为: light
+[2025-03-30 16:45:11] 主题已切换为: light
+[2025-03-30 16:45:12] 主题已切换为: dark
+[2025-03-30 16:45:12] 主题已切换为: dark
+[2025-03-30 16:45:12] 主题已切换为: light
+[2025-03-30 16:45:12] 主题已切换为: light
+[2025-03-30 16:45:13] 主题已切换为: dark
+[2025-03-30 16:45:13] 主题已切换为: dark
+[2025-03-30 16:45:13] 主题已切换为: light
+[2025-03-30 16:45:13] 主题已切换为: light
+[2025-03-30 16:45:35] 主题已切换为: light
+[2025-03-30 16:45:35] 密码解密失败: 
+[2025-03-30 16:45:35] 密码解密失败: 
+[2025-03-30 16:49:53] 主题已切换为: light
+[2025-03-30 16:49:54] 缺少解密密钥，无法解密密码
+[2025-03-30 16:49:54] 缺少解密密钥，无法解密密码
+[2025-03-30 16:50:07] 主题已切换为: dark
+[2025-03-30 16:50:07] 主题已切换为: dark
+[2025-03-30 16:50:07] 主题已切换为: light
+[2025-03-30 16:50:07] 主题已切换为: light
+[2025-03-30 16:50:08] 主题已切换为: dark
+[2025-03-30 16:50:08] 主题已切换为: dark
+[2025-03-30 16:50:08] 主题已切换为: light
+[2025-03-30 16:50:08] 主题已切换为: light
+[2025-03-30 16:50:09] 主题已切换为: dark
+[2025-03-30 16:50:09] 主题已切换为: dark
+[2025-03-30 16:50:09] 主题已切换为: light
+[2025-03-30 16:50:09] 主题已切换为: light
+[2025-03-30 16:50:10] 主题已切换为: dark
+[2025-03-30 16:50:10] 主题已切换为: dark
+[2025-03-30 16:50:10] 主题已切换为: light
+[2025-03-30 16:50:10] 主题已切换为: light
+[2025-03-30 16:50:11] 主题已切换为: dark
+[2025-03-30 16:50:11] 主题已切换为: dark
+[2025-03-30 16:50:11] 主题已切换为: light
+[2025-03-30 16:50:11] 主题已切换为: light
+[2025-03-30 16:50:12] 主题已切换为: dark
+[2025-03-30 16:50:12] 主题已切换为: dark
+[2025-03-30 16:50:12] 主题已切换为: light
+[2025-03-30 16:50:12] 主题已切换为: light
+[2025-03-30 16:50:15] 保存附件: mail.eml
+[2025-03-30 16:50:15] 邮件b'4'共下载1个附件
+[2025-03-30 16:50:15] 保存附件: mail.eml
+[2025-03-30 16:50:15] 邮件b'5'共下载1个附件
+[2025-03-30 16:50:37] 处理邮件b'73'失败: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte
+[2025-03-30 16:50:50] 保存附件: mail.eml
+[2025-03-30 16:50:50] 邮件b'4'共下载1个附件
+[2025-03-30 16:50:50] 保存附件: mail.eml
+[2025-03-30 16:50:50] 邮件b'5'共下载1个附件
+[2025-03-30 16:51:09] 处理邮件b'73'失败: 'utf-8' codec can't decode byte 0xa1 in position 0: invalid start byte

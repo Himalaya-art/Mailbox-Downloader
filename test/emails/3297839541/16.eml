@@ -1,0 +1,42 @@
+Received: from m12-18.163.com (m12-18.163.com [220.181.12.18])
+	by newxmmxszb1-8.qq.com (NewMX) with SMTP id 14DB84C9
+	for <3297839541@qq.com>; Mon, 11 Jul 2022 20:05:13 +0800
+X-QQ-mid: xmmxszb1-8t1657541113thj4efvn5
+X-QQ-XMAILINFO: M3uTjkO5QXGxLQTxHryvaORkhly2ZlA0yAfdq8Q08W5d8v5KpzKrO2uOA6cDg3
+	 lMUtXBIKH3qsoEiPivuCsgb0xG8nmlKUfkJaXN4DlC6p/76NcI/9vnOWNXMETCPNLrHuELqjqL4q
+	 Br71Z34Tqb1kv55+U8tIzM1AIxyS23vgiOvknYlNdKECNHNBsfFWTEVTgNcIsi3he5Sh7xylGi11
+	 7oIo1zT/z72Vybc9gQ+vXaaUOy1tAsO410nO+1iJtg0Qpkpx13NGLDIrl8GT8CaIR9htabuLtc6M
+	 GfHg24u2IBSrFP/XjJx32Wkc+p84ntt6oSk9X+m8oiKoeU6twJnxgmlPh/kxq73khOSWcgs7nWMU
+	 szeJCv7uHqEpYlLQqUk3uiH1skRC0DaRqwxkryOQYHoS7wTrB4lbHQ4Nskv1GU54ZFQCv7e6aPU2
+	 0HBO2stUfhUOcz776RRTf0ubPUgy3ebZ58IARa62De0YPN0knNTIjDPcS2T/9VrFEMzubiDR6FRB
+	 9uiwx7oucfTOAPpcWZwqg0pMIJrc2BSwsMTqjaCACAcub25Yt121KdITVMGSHdzpb/Uv47YEM4KQ
+	 zobUHZJ8Y5YA9hdAbNvlpl2+q8ICXZR+IB4ASI0fGEUQakc4yqx7VmzDYOpTtUtmfmCxV3slXiB5
+	 jGh4MpgxYZhTP9oRG+zd5lAW6Lko/sYsi8DIgiGK+LyLZTDRPvwlhKuUJu6qSKgZMQKuE0FGTpJ2
+	 xQv+sqgKW9opJo/FfHRjjguOmvD6s+az1cChowxJRB59u09RK8MiasHGVcood3fh87DJoQQPeIwI
+	 7Tv+iF3Fojqw7ocikUEUltfSiZz7HtZWIrJXhRa4uZmzx7q9SWathFv2TK47UeMPI/bGjXSoGGiw
+	 QHm7U5I7XBBCFPkKt8ittp+tHMWwu2+hPfwtTfpd3HRLw4kpIYBOuXmEOvO6y5qA==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=163.com;
+	s=s110527; h=From:MIME-Version:Subject:Message-Id:Date; bh=jkYhN
+	5eG70Kk/sFVzVJcKR3X2zwf3jR4Ui9PYcA/0b0=; b=YYjrl/z9hk6dF2DHSZrUQ
+	nZjV5wC4STwWDcHMkTz5nKTmTWlAVjNOL9UzWuXmTI9VtdqC2RCV4J/Ed5eJmOEj
+	JhxLDDarzzathcDM0e9O+yLSO/UBFWjdSHF3Yp2pej1HxvjhAWvBFZoOhyjMf739
+	OAvh130yc+J6z0gAv0Xt1I=
+Received: from 163.com (unknown [119.29.67.137])
+	by smtp14 (Coremail) with SMTP id EsCowADX+rb4EcxiNZGMMQ--.63082S2;
+	Mon, 11 Jul 2022 20:05:13 +0800 (CST)
+From: 战舰助手-群1004161362 <himalaya0128@163.com>
+To: 3297839541@qq.com
+MIME-Version: 1.0
+Subject: =?UTF-8?B?CmE=?=
+Content-Type: text/plain
+Content-Transfer-Encoding: 7bit
+X-CM-TRANSID:EsCowADX+rb4EcxiNZGMMQ--.63082S2
+Message-Id:<62CC11F9.316F83.13595@m12-18.163.com>
+X-Coremail-Antispam: 1Uf129KBjDUn29KB7ZKAUJUUUUU529EdanIXcx71UUUUU7v73
+	VFW2AGmfu7bjvjm3AaLaJ3UbIYCTnIWIevJa73UjIFyTuYvjxUcZXoUUUUU
+X-Originating-IP: [119.29.67.137]
+Date: Mon, 11 Jul 2022 20:05:13 +0800 (CST)
+X-CM-SenderInfo: pklptzxd1diiisy6il2tof0z/1tbiUBk7-FWBvSb5sAAAsI
+
+a
+

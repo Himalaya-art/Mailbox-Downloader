@@ -1,0 +1,7 @@
+2025-03-30 14:26:44,631 - WARNING - 读取IMAP服务器配置失败，使用默认值: [Errno 2] No such file or directory: 'imap_servers.json'
+2025-03-30 14:26:45,311 - WARNING - 读取IMAP服务器配置失败，使用默认值: [Errno 2] No such file or directory: 'imap_servers.json'
+2025-03-30 14:26:45,312 - WARNING - 读取IMAP服务器配置失败，使用默认值: [Errno 2] No such file or directory: 'imap_servers.json'
+2025-03-30 14:26:45,314 - WARNING - 读取IMAP服务器配置失败，使用默认值: [Errno 2] No such file or directory: 'imap_servers.json'
+2025-03-30 14:26:45,317 - WARNING - 读取IMAP服务器配置失败，使用默认值: [Errno 2] No such file or directory: 'imap_servers.json'
+2025-03-30 14:26:52,893 - INFO - 成功下载 4 封邮件
+2025-03-30 14:28:10,600 - INFO - 成功下载 4 封邮件

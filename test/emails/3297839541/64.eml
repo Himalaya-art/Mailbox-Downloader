@@ -1,0 +1,759 @@
+Received: from o16.ptr7471.discord.com (o16.ptr7471.discord.com [149.72.251.68])
+	by newxmmxszb5-3.qq.com (NewMX) with SMTP id 656AD6B2
+	for <3297839541@qq.com>; Sun, 31 Mar 2024 03:25:22 +0800
+X-QQ-mid: xmmxszb5-3t1711826722t955awww8
+Sender: bounces+12551241-b7d7-3297839541=qq.com@mail.discord.com
+X-QQ-CSender: bounces+12551241-b7d7-3297839541=qq.com@mail.discord.com
+X-QQ-XMAILINFO: NZiJZo0DdgPmPlfVkhi82IFsgTH0j1x0sTpNr4KIhddQryb/o5pMN+k3fGzZQe
+	 TilQqS4Yq8QsuuXEBw6cx+2+IEAachIqG5MHXMKs1b2I8on1Gd3GXIYumv+XEVrizd/mrZ35rgV5
+	 GEn4kZPtXHG5FeglrH2vqP/OPnpBHtfYwoc3pclg3gZL9Qx/WIXeNPzxTpZMG7Y4eP7IOwfdv72y
+	 MHu+qSrULqiu1E4Uqr0aZMXy7XGBnCvu2H3i1twMyoEKcQBKdAPh0aHAupe/JJxVuI04jx6nOZPW
+	 0tq7Buu2/zAQBOPxKoEdNJZzguVDV8M3QAN6xwDoHIgHXxfYj3vvU0I0GAhAWZ3kPclT5Ww1Tp/N
+	 sy5Pusae+K/XIPZ1nf4pd8J4wVBcEjqE0zQ8THqgrVOeQoOxZgAPD0BWJ5IOvaUZ5R5B0taGkFTZ
+	 g96leXYkPeYvgxHy+7NYNaZueNvSYiJm+aBBd7ndkq6A1TMXzZpD+SLnGOgj//N2OYIBYryvJKGN
+	 a+xupUyom/qbNJt1igp+uWsm9c6PDZesHT9qbY/oSXtM1IAPY6D1PxbsVygvuQRObkra5QWZOYG/
+	 zBIzmjsdI3mqDrBblvq2j4Eogz1nyYshCWjVepS1IP3d/DDmh7hsCUp+d9aSZVPFYSlWd1ymjT38
+	 cNBpkEkvBzwqQrdU36Jb/RCMF4aSj2dCu8BciX3nhEHZPxjiBs1Z8M9f8WorwhTQor+abVlOU5d8
+	 L5geSGeI8PhJrc6MB7icnlmfIkhkMn8U3m4pMmpPbEJDPb46gufBdJaVrN4VfjVpA3G75vXHlnaW
+	 Iq+EilSb8SvcmuOrwrGkHQFtw8b9q7pSMviXG3HK5taC1sjobPZJXlbkDyVgDXNtw0nWYrnVV+C1
+	 pfOGLF4Bm+w4Dq2s1ErOg5ooBLA59oPsBbyYg4cjetyHnRRx5IZ2jx+QYPAOJm479lgg3tDC3biE
+	 fxvvwfUEO+qbIa1pEknMVW9lic8bq59SAxNRe9/zaeQUlu9aZ6nZC/1Tx2xir2O2W+XPXioYd+Od
+	 u8etj6Fp53VZK3LEA1LNcFhi8iYouj0c9CL0A7ykM/c5FVZLvcG3fs23a++FNLf8NEtIzgdSEdam
+	 EUY8EgpPy+vaNahRj7D8BaBtdqO3p1PqPZ4ePBiRFNlbEs/YhVIZCkichWeSBzoV5TCo1fXJMZLY
+	 mEeCC1xxzHXfWIN8l9pxZVFjpo4xwSo46q9j1nJV7LDdI16Uhh6BCPjiDCrOE9mct9hDpIkJxmIW
+	 4wfDZ+eUMhC7NuLyolrpi/HQe83v3ohUWx9EjO62pmZFeGNgd/ix44xGanzB97aVH7prUa5G2gUx
+	 N4
+X-QQ-XMRINFO: MSVp+SPm3vtS1Vd6Y4Mggwc=
+Authentication-Results: mx.qq.com; spf=pass(149.72.251.68) smtp.mailfrom=<boun
+	 ces+12551241-b7d7-3297839541=qq.com@mail.discord.com>; dkim=pass(signature w
+	 as verified) header.d=discord.com; dmarc=none(permerror) header.from=discord
+	 .com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=discord.com;
+	h=content-type:from:mime-version:subject:to:cc:content-type:from:
+	subject:to;
+	s=s1; bh=vJ1BiTV3z1ZHzspSkVVeWJIeL3NYbMyBPtXcOTTbShw=;
+	b=KORpR8BBDGRFpgCH0+TBeVgV0yxEUZ9CGmNWqYB2M4J1yNDLN/Q30wmXRAen+VvGFkCd
+	kBF9jDiXqe8/4Q6OfAyKFn6QvtMTTVd2CeefFtDaGpxOBmNacUJc/US2OMI7dHYI0tlTnz
+	a+Mk/1HGqnLhiD8KpT0RYOnMXxwNRi4ToDYqW63csf9+fFSfiuhlFNeHzqd+rPwfaG6AJG
+	Qk80g/6pyffreiTMb9cyAyoVlhyz6mXZaDJlMUMatnw2ptutiZ4+f4TNCnsgzumDI5iR2w
+	dXqrBlFJr2zGSZEx5GAs+FryRlokZmJVbJ53CCjKd9d0NvZmH24u1i89Bk22Vi/g==
+Received: by filterdrecv-54fd5fc8db-w2nsj with SMTP id filterdrecv-54fd5fc8db-w2nsj-1-66086722-15
+        2024-03-30 19:25:22.164429584 +0000 UTC m=+1032085.422537582
+Received: from MTI1NTEyNDE (unknown)
+	by geopod-ismtpd-6 (SG) with HTTP
+	id MmIDlLKrTDak_zMBGvPfBQ
+	Sat, 30 Mar 2024 19:25:22.031 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=dc7bdffcf1fbe8bccd42122fa8ae4cd1600a1b25b80d1bd9ad6a6e4d7cf5
+Date: Sat, 30 Mar 2024 19:25:22 +0000 (UTC)
+From: Discord <notifications@discord.com>
+Mime-Version: 1.0
+Message-ID: <MmIDlLKrTDak_zMBGvPfBQ@geopod-ismtpd-6>
+Subject: Discord =?UTF-8?B?5pS/562W5pu05paw?=
+X-SG-EID: 
+ =?us-ascii?Q?u001=2Encph=2Fx3Jw0NdHDwq6twCdpH45FU+jy6C2PSJl0TVq3dF8wB1fQbqzERhm?=
+ =?us-ascii?Q?94UgYHNxRRRfa5bk9Yj2F67OpBghnuL+lzuolDc?=
+ =?us-ascii?Q?9r921XUXUrl+zkJUN6astblypUUBkJERU0Z43gZ?=
+ =?us-ascii?Q?oNjkrerHN0gqP1qhnalvgPDlyzoQXuYhuYlZaGu?=
+ =?us-ascii?Q?Lq0RZHRy+3jW9dt5bmaR6mlzdzocQN8bYWMCyKB?=
+ =?us-ascii?Q?LEBe=2FzBjCgsF7Y2l3FMvHngJSexxUcGUH0jg8Es?= =?us-ascii?Q?d9q0?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BuuaPhIX=2FAX0xUCTQWOor1G6BRqd6JNHWQb5u?=
+ =?us-ascii?Q?8NZtUJLVZ0mP0YKkgIXcmNGgtsJog=3D=3D?=
+To: 3297839541@qq.com
+X-Entity-ID: u001./CsYf4h0MhpT6Wn4uiuimw==
+
+--dc7bdffcf1fbe8bccd42122fa8ae4cd1600a1b25b80d1bd9ad6a6e4d7cf5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+=E5=97=A8=EF=BC=81
+
+=E6=88=91=E4=BB=AC=E6=83=B3=E9=80=9A=E7=9F=A5=E6=82=A8=EF=BC=8C=E6=88=91=E4=
+=BB=AC=E6=AD=A3=E5=9C=A8=E6=9B=B4=E6=96=B0=E6=88=91=E4=BB=AC=E7=9A=84=E6=9C=
+=8D=E5=8A=A1=E6=9D=A1=E6=AC=BE: https://click.discord.com/ls/click?upn=3Du0=
+01.a0NJ38DJJG1sulNx5wS1jmao-2Fh5RR-2FeFYeaMHcy0KFawUAnGXLGoIaNlo8rttbYLzTjz=
+iAzxDn7K2WT28cXezA-3D-3DeMZR_jSCDUBFAAvJvCiGI1G3VrJZH5xdDT9kzqLVOllaywr4P5q=
+FjADz8o412mDJp3vgPr2EH9oLl7BitvHIVIRfX2spRtWm8TwRoKy6wkOdZzFzIAB3ztt-2BhwUN=
+xaNHE4i78lD0c3o1YpxPdFa4iiV46ormvwTWgpQatD2GjENg7Y8hdxVkwb4jfeAbyUtQtAi6FbV=
+i7i8MZdD9TUKGXzSRw4xV4hmGeQuJY36CGcXbPXhiG0DyDlHy9zRgAmL-2B8CGpO https://cl=
+ick.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jomd9jf597FKWsPi-2B=
+9X02ICKv5fOluxFKSLZ4sEHLwF2r2sQkO6wBh-2Bf1v7PrU5ZMw-3D-3DXn-u_jSCDUBFAAvJvC=
+iGI1G3VrJZH5xdDT9kzqLVOllaywr4P5qFjADz8o412mDJp3vgPr-2FBr03a87-2FAlIKBxaDH4=
+JDnUuPBppwexwmSMIwmRBmQvekOqDbEaMDpDtt52xutWrVK7-2FU6DWYZYSWCapM-2BjC8Bvhxq=
+7I1u3qEII-2BvpGMg463bY75xFz-2BQQGPtP8wWyCkSBoECf8elyq4GfAqQ9BGbbjK-2Fb0za15=
+bk2xa3lHAWwastzc-2BjWwDZ-2Fpa5qhQU8n https://click.discord.com/ls/click?upn=
+=3Du001.a0NJ38DJJG1sulNx5wS1jmao-2Fh5RR-2FeFYeaMHcy0KFb6k-2FKMKHxHHQPwZclEu=
+8z9tabZchqeTwfxcj3yDeWaYFxmdL5qajYa1nVQdb3EShY-3Dafzl_jSCDUBFAAvJvCiGI1G3Vr=
+JZH5xdDT9kzqLVOllaywr4P5qFjADz8o412mDJp3vgP9L-2F8BQ35w-2F-2Bu3SrlDloQ5WG-2B=
+ae1VxNofm3TcHouekqWGgKnn7NCwEA7gWvEfd8fF6cvy87cmI4AQf4kou-2BxWT2oMk7lc09EXf=
+Nll4g8-2BwI-2F8cg9JVm7bjsFZjGgUoBoGVLuxjIqlOGiVbOd6G2hy3z4R6bpz22nysNBREd7I=
+3Y3Ur-2FFFuqEDExKNfNnyPYiU https://click.discord.com/ls/click?upn=3Du001.a0=
+NJ38DJJG1sulNx5wS1jpbCCT6E-2BgXKgNwnLEukEEHSdZlIJCU7GsxeT1AaakNq-2B750wyZPf=
+7nLdgCt888XXY-2FIEBJDmk2eqnwLJBcCiodVzNf3UORSyQOUaw2cUuQvsRNxr1TUdO6RSNYKfn=
+PFoBPedWxotOLWSxP49pXQ-2Bw59eOJaIKh7yzZHBCovtPJ-2F187v_jSCDUBFAAvJvCiGI1G3V=
+rJZH5xdDT9kzqLVOllaywr4P5qFjADz8o412mDJp3vgPXT7BGF-2F0G-2FeEWs9aEg7OIwqXFC1=
+kfZ0-2BDv7BF48XJ59bHyQ8DVsepSCe8hKZRQNrJGXS8xIMwhhoDrkCDRBR0sM-2Bkg-2Fw0Ckk=
+YOPmwhFL-2BHuHAyJvljsEny5RFp-2FT74agWCCOBAuTwZBSQEiE6YHbSHtoFb-2Fpqp4vBMSMv=
+hvlnqz8BYkCqPLtce6O6knG25-2FY
+
+=E8=BF=99=E4=BA=9B=E6=9B=B4=E6=96=B0=E5=B0=86=E4=BA=8E **2024 =E5=B9=B4 4 =
+=E6=9C=88 15 =E6=97=A5**=E7=94=9F=E6=95=88=E3=80=82=20
+
+=E4=BB=A5=E4=B8=8B=E6=98=AF=E6=AD=A4=E6=AC=A1=E6=9B=B4=E6=96=B0=E7=9A=84=E4=
+=B8=80=E4=BA=9B=E4=BA=AE=E7=82=B9=EF=BC=9A
+
+- **=E6=88=91=E4=BB=AC=E5=A6=82=E4=BD=95=E6=8F=8F=E8=BF=B0=E8=87=AA=E5=B7=
+=B1=E7=9A=84=E6=9C=8D=E5=8A=A1=EF=BC=9A**=E8=AE=A9=E6=82=A8=E8=83=BD=E6=9B=
+=B4=E5=AE=B9=E6=98=93=E7=90=86=E8=A7=A3 Discord =E7=9A=84=E5=B7=A5=E4=BD=9C=
+=E6=96=B9=E5=BC=8F=E3=80=81=E6=88=91=E4=BB=AC=E6=8F=90=E4=BE=9B=E7=9A=84=E5=
+=8A=9F=E8=83=BD=E4=BB=A5=E5=8F=8A=E5=A6=82=E4=BD=95=E4=B8=BA=E6=82=A8=E6=8F=
+=90=E4=BE=9B=E4=B8=AA=E6=80=A7=E5=8C=96=E6=9C=8D=E5=8A=A1=E3=80=82=20
+
+- **=E6=88=91=E4=BB=AC=E5=A6=82=E4=BD=95=E8=A7=A3=E5=86=B3=E7=BA=A0=E7=BA=
+=B7=EF=BC=9A**=E6=9B=B4=E6=96=B0=E4=BA=86=E6=88=91=E4=BB=AC=E7=9A=84=E9=9D=
+=9E=E6=AD=A3=E5=BC=8F=E7=BA=A0=E7=BA=B7=E8=B0=83=E8=A7=A3=E6=B5=81=E7=A8=8B=
+=E5=92=8C=E4=BB=B2=E8=A3=81=E5=8D=8F=E8=AE=AE=E3=80=82=E6=88=91=E4=BB=AC=E4=
+=BC=9A=E5=8A=AA=E5=8A=9B=E8=AE=A9=E6=82=A8=E4=B8=80=E5=A6=82=E6=97=A2=E5=BE=
+=80=E5=9C=B0=E7=83=AD=E7=88=B1 Discord=EF=BC=8C=E4=B9=9F=E5=B8=8C=E6=9C=9B=
+=E6=B0=B8=E8=BF=9C=E4=B8=8D=E4=BC=9A=E5=8F=91=E7=94=9F=E7=BA=A0=E7=BA=B7=EF=
+=BC=81
+
+- **=E6=88=91=E4=BB=AC=E5=A6=82=E4=BD=95=E4=BF=9D=E6=8A=A4=E9=9A=90=E7=A7=
+=81=EF=BC=9A**=E6=8F=90=E4=BE=9B=E4=BA=86=E6=9B=B4=E5=A4=9A=E5=85=B3=E4=BA=
+=8E=E9=9A=90=E7=A7=81=E6=9D=83=E5=8F=8A=E5=85=B6=E8=A1=8C=E4=BD=BF=E6=96=B9=
+=E5=BC=8F=E7=9A=84=E4=BF=A1=E6=81=AF=E3=80=82=E6=88=91=E4=BB=AC=E8=BF=98=E6=
+=9B=B4=E6=96=B0=E4=BA=86=E5=85=B3=E4=BA=8E=E6=94=B6=E9=9B=86=E5=93=AA=E4=BA=
+=9B=E6=95=B0=E6=8D=AE=E4=BB=A5=E5=8F=8A=E5=A6=82=E4=BD=95=E4=BD=BF=E7=94=A8=
+=E8=BF=99=E4=BA=9B=E6=95=B0=E6=8D=AE=E7=9A=84=E4=BF=A1=E6=81=AF=E3=80=82=E6=
+=88=91=E4=BB=AC=E9=9D=9E=E5=B8=B8=E9=87=8D=E8=A7=86=E7=94=A8=E6=88=B7=E9=9A=
+=90=E7=A7=81=EF=BC=8C=E4=BC=9A=E5=B0=BD=E9=87=8F=E9=99=90=E5=88=B6=E6=88=91=
+=E4=BB=AC=E6=94=B6=E9=9B=86=E7=9A=84=E4=BF=A1=E6=81=AF=EF=BC=8C=E5=B9=B6=E8=
+=AE=A9=E6=82=A8=E8=83=BD=E5=9C=A8 Discord =E4=B8=8A=E6=8E=A7=E5=88=B6=E8=87=
+=AA=E5=B7=B1=E7=9A=84=E9=9A=90=E7=A7=81=E3=80=82
+
+- **=E6=88=91=E4=BB=AC=E5=A6=82=E4=BD=95=E8=A7=A3=E9=87=8A=E7=A4=BE=E5=8C=
+=BA=E5=AE=88=E5=88=99=EF=BC=9A**=E6=B7=BB=E5=8A=A0=E4=BA=86=E6=9B=B4=E5=A4=
+=9A=E8=83=8C=E6=99=AF=E4=BF=A1=E6=81=AF=EF=BC=8C=E4=BD=BF=E6=88=91=E4=BB=AC=
+=E7=9A=84=E5=AE=88=E5=88=99=E6=9B=B4=E6=98=93=E4=BA=8E=E7=90=86=E8=A7=A3=E3=
+=80=82  =20
+
+=E6=88=91=E4=BB=AC=E9=BC=93=E5=8A=B1=E6=82=A8=E5=AE=8C=E6=95=B4=E9=98=85=E8=
+=AF=BB=E6=9B=B4=E6=96=B0=E5=90=8E=E7=9A=84=E6=96=87=E6=A1=A3=E3=80=82=E6=88=
+=91=E4=BB=AC=E8=BF=98=E5=9C=A8=E5=8D=9A=E5=AE=A2: https://click.discord.com=
+/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jhNGCBLBXgwpsgIobogv2M42l2gL8jchU2=
+MiKLb1FvMjw9SN4nE8CxavBRASHWF2yAOUHSyniVclyDQvv1ZQiVM-3D-a3Z_jSCDUBFAAvJvCi=
+GI1G3VrJZH5xdDT9kzqLVOllaywr4P5qFjADz8o412mDJp3vgPCUMLGiAirh70SwREk5VzHuIQ1=
+Jm7tItwVh-2FirF2E18S-2FkuNrXdUeF3RMl8xjaqa26JuktOkkz93Pz23VH9C-2B3QrzkBGDYl=
+QLxEyjhasNF0rtZhsjwg6cD-2BlXLaY-2B9V9nam2aRifpUEGJA8H-2FAWQfYBcKiA7dT-2BKg6=
+oWyeGdZNCGrOBDZtoc9BG2rKk6LOHDT=20
+
+=E6=84=9F=E8=B0=A2=E6=82=A8=E5=B8=AE=E5=8A=A9=E6=88=91=E4=BB=AC=E5=B0=86 Di=
+scord =E6=89=93=E9=80=A0=E6=88=90=E8=81=8A=E5=A4=A9=E7=9B=B8=E8=81=9A=E7=9A=
+=84=E6=9C=80=E4=BD=B3=E5=9C=BA=E6=89=80=EF=BC=81
+
+Discord
+
+
+--dc7bdffcf1fbe8bccd42122fa8ae4cd1600a1b25b80d1bd9ad6a6e4d7cf5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+
+    <!doctype html>
+    <html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-mic=
+rosoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+      <head>
+        <title>
+         =20
+        </title>
+        <!--[if !mso]><!-->
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <!--<![endif]-->
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DU=
+TF-8">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1">
+        <style type=3D"text/css">
+          #outlook a { padding:0; }
+          body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-=
+size-adjust:100%; }
+          table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-tab=
+le-rspace:0pt; }
+          img { border:0;height:auto;line-height:100%; outline:none;text-de=
+coration:none;-ms-interpolation-mode:bicubic; }
+          p { display:block;margin:13px 0; }
+        </style>
+        <!--[if mso]>
+        <noscript>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        </noscript>
+        <![endif]-->
+        <!--[if lte mso 11]>
+        <style type=3D"text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]-->
+       =20
+      <!--[if !mso]><!-->
+        <link href=3D"https://fonts.googleapis.com/css2?family=3DPoppins:it=
+al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1=
+,300;1,400;1,500;1,600;1,700;1,800;1,900&display=3Dswap" rel=3D"stylesheet"=
+ type=3D"text/css">
+        <style type=3D"text/css">
+          @import url(https://fonts.googleapis.com/css2?family=3DPoppins:it=
+al,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1=
+,300;1,400;1,500;1,600;1,700;1,800;1,900&display=3Dswap);
+        </style>
+      <!--<![endif]-->
+
+   =20
+       =20
+    <style type=3D"text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=3D"screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width:=
+ 100%; }
+    </style>
+   =20
+ =20
+        <style type=3D"text/css">
+       =20
+       =20
+
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+ =20
+        </style>
+        <style type=3D"text/css">* {
+  font-family: Poppins, Helvetica Neue, Helvetica, Arial, Lucida Grande, sa=
+ns-serif !important;
+  }
+
+  h2 {
+  font-weight: 700 !important;
+  font-size: 20px;
+  }
+
+  ul {
+  margin-bottom: 24px !important;
+  }
+
+  h1, h2, h3 {
+  color: #060607 !important;
+  }
+
+  h3 {
+  font-weight: 700 !important;
+  }
+
+  div, li {
+  color: #2E3338;
+  }
+
+  p, span {
+  font-size: 14px;
+  line-height: 20px;
+  color: #4F5660 !important;
+  }
+
+  .no-style {
+  font-size: unset;
+  line-height: unset;
+  color: unset !important;
+  }
+
+  .cta-button a {
+  padding: 10px !important;
+  font-size: 14px !important;
+  display: block !important; /* Makes the button fully clickable, not just =
+the text */
+  }
+
+  .download-button a {
+  padding: 8px 24px !important;
+  font-size: 14px !important;
+  }
+
+  .cta-button {
+  margin: 24px 0px !important;
+  }
+
+  .help-text p {
+  font-size: 12px;
+  margin: 0;
+  }
+
+  .footer *:not(a) {
+  color: #747F8D !important;
+  }
+
+  .round-border {
+  overflow: hidden;
+  border-radius: 8px;
+  }
+
+  .social-media div { text-align: center !important; }
+  .social-media-col { width: 40px !important; }</style>
+        <!-- prettier-ignore -->
+      </head>
+      <body style=3D"word-spacing:normal;background-color:#F9F9F9;">
+       =20
+       =20
+      <div
+         style=3D"background-color:#F9F9F9;"
+      >
+       =20
+     =20
+      <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:604;"=
+ width=3D"604" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-hei=
+ght-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div  style=3D"margin:0px auto;max-width:604;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:20px 0;text-a=
+lign:center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><![endif]-->
+                 =20
+      <style type=3D"text/css">
+    html,
+    body,
+    * {
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+    }
+    a {
+      color: #1eb0f4;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+          <!--[if mso | IE]><tr><td class=3D"" width=3D"604" ><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" rol=
+e=3D"presentation" style=3D"width:604px;" width=3D"604" bgcolor=3D"transpar=
+ent" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:e=
+xactly;"><![endif]-->
+   =20
+     =20
+      <div  style=3D"background:transparent;background-color:transparent;ma=
+rgin:0px auto;max-width:604px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:transparent;background-color:tr=
+ansparent;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:20px 0px;text=
+-align:center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:604px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-siz=
+e:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top=
+;width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"vertical-align:top;" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"center" style=3D"font-size:0px;padding:0;word-b=
+reak:break-word;"
+                >
+                 =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"border-collapse:collapse;border-spacing:0px;"
+      >
+        <tbody>
+          <tr>
+            <td  style=3D"width:140px;">
+             =20
+        <a
+           href=3D"https://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG=
+1sulNx5wS1jvdSQ2XvqHIrLV9yv-2FClqGMsQ561nXpQGbTcquM2dU3Xnbfq_jSCDUBFAAvJvCi=
+GI1G3VrJZH5xdDT9kzqLVOllaywr4P5qFjADz8o412mDJp3vgPBGr5lSDrYm0a8IbSo7HTsgomS=
+NLbFQVDuXdXJpFa-2BKr-2BAsMFJRGZg-2FEvuPQoJvxcPy7pMi3TkO3CwuUgIQ0v6DDFebBOC9=
+pX-2FkwwgkorB5H1bzrEbeE-2FpHP8rPrIU1hMCbyXds44-2BH7l-2BrFv6hdUgI7JBmMsp9J7L=
+5mVUVXOrHc9LVBMwO-2B2WJ-2Fzg-2Fr30zIX" target=3D"_blank"
+        >
+         =20
+      <img
+         height=3D"38" src=3D"https://cdn.discordapp.com/email_assets/59242=
+3b8aedd155170617c9ae736e6e7.png" style=3D"border:0;display:block;outline:no=
+ne;text-decoration:none;height:38px;width:100%;font-size:13px;" width=3D"14=
+0"
+      />
+   =20
+        </a>
+     =20
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table></td></tr><![endif]-->
+       =20
+          <!--[if mso | IE]><tr><td class=3D"shadow-outlook round-border-ou=
+tlook" width=3D"604" ><table align=3D"center" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" class=3D"shadow-outlook round-border-outlook" role=3D"p=
+resentation" style=3D"width:604px;" width=3D"604" bgcolor=3D"#ffffff" ><tr>=
+<td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><=
+![endif]-->
+   =20
+     =20
+      <div  class=3D"shadow round-border" style=3D"background:#ffffff;backg=
+round-color:#ffffff;margin:0px auto;max-width:604px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#ffffff;background-color:#fffff=
+f;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:40px 50px;tex=
+t-align:center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:504px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-siz=
+e:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top=
+;width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"vertical-align:top;" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:0px;word-b=
+reak:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lu=
+cida Grande, sans-serif;font-size:16px;line-height:24px;text-align:left;col=
+or:#737F8D;"
+      ><p>=E5=97=A8=EF=BC=81</p>
+<p>=E6=88=91=E4=BB=AC=E6=83=B3=E9=80=9A=E7=9F=A5=E6=82=A8=EF=BC=8C=E6=88=91=
+=E4=BB=AC=E6=AD=A3=E5=9C=A8=E6=9B=B4=E6=96=B0=E6=88=91=E4=BB=AC=E7=9A=84<a =
+href=3D"https://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1j=
+mao-2Fh5RR-2FeFYeaMHcy0KFYTtAMSPr82uEshGSfeH3VCJjVz_jSCDUBFAAvJvCiGI1G3VrJZ=
+H5xdDT9kzqLVOllaywr4P5qFjADz8o412mDJp3vgPlLTeXeuDflBBENK0A22SkSeLdoBem0a5oT=
+LvTGJSSp1TRbhCblmkv4hLCj6KuQS45RhQkooLRry4WWcCifRwBe4wdZgnAJA8sh4iGGhjf1MVM=
+fbFyPKneVWrZFsIdt-2FFqZjL4SqPeOD5BESKSwOr-2FcX5OZHkKNYRd4a4qysEtOxv686I7Y4H=
+nzRQOvpRUpWY" style=3D"font-family: Helvetica Neue, Helvetica, Arial, Lucid=
+a Grande, sans-serif;color: #5865f2;">=E6=9C=8D=E5=8A=A1=E6=9D=A1=E6=AC=BE<=
+/a>=E3=80=81<a href=3D"https://click.discord.com/ls/click?upn=3Du001.a0NJ38=
+DJJG1sulNx5wS1jomd9jf597FKWsPi-2B9X02IDEpKDJSjBzC5VkPdtwK3LaBEbJ_jSCDUBFAAv=
+JvCiGI1G3VrJZH5xdDT9kzqLVOllaywr4P5qFjADz8o412mDJp3vgP0GOmxmof7YDx-2Bh3fNG6=
+JO636ncVMOJPj1v-2FaZeHufNi3UukQSzLhFHdpZpmHwD5YBep2m0Jzfng8s0S3BhfwU-2FoXXp=
+aWVjITxSqCqIB9njYn2jUp4UuB-2FYVMM21TLpP-2BwtYnFOVZzgAMpVl-2FyOp5W5TVyuNAF-2=
+FLN23HXnOHZnPmALAOaKFlBYD4p7B-2FhK-2FdD" style=3D"font-family: Helvetica Ne=
+ue, Helvetica, Arial, Lucida Grande, sans-serif;color: #5865f2;">=E9=9A=90=
+=E7=A7=81=E6=94=BF=E7=AD=96</a>=E3=80=81<a href=3D"https://click.discord.co=
+m/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jmao-2Fh5RR-2FeFYeaMHcy0KFb6k-2FK=
+MKHxHHQPwZclEu8z9y9wp0u-2BUFazP-2B2tAehJYow-3D-3DfTj8_jSCDUBFAAvJvCiGI1G3Vr=
+JZH5xdDT9kzqLVOllaywr4P5qFjADz8o412mDJp3vgPzS3UtySXIMFeRBW1OL2h8fu-2F1y2Zdr=
+eGrdGqI81OcNgNL1BwmO0h-2F7-2BngnLMEgbucZZ-2F7vp-2Fari-2BlEnydc3kubOWoj9AHcc=
+ZXs-2FHucPahn4oeX57a5PBJLZo36-2BDj8fJ-2FiuUPeuWDu-2B8O1UAnXUbDyLEg95-2BDq-2=
+FDsFRQIX9zYYMKuXBPGBi4O-2B5ExwynHCus" style=3D"font-family: Helvetica Neue,=
+ Helvetica, Arial, Lucida Grande, sans-serif;color: #5865f2;">=E4=BB=98=E8=
+=B4=B9=E6=9C=8D=E5=8A=A1=E6=9D=A1=E6=AC=BE</a>=E4=BB=A5=E5=8F=8A<a href=3D"=
+https://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1sulNx5wS1jpbCCT6E-=
+2BgXKgNwnLEukEEGUbWbUb7yR8oHIv6SA3eVfonet_jSCDUBFAAvJvCiGI1G3VrJZH5xdDT9kzq=
+LVOllaywr4P5qFjADz8o412mDJp3vgPbuH52vEcP-2F7n82eonOWVpKXuIkTDeT6-2Fr3U6xm8-=
+2BG6yiMFgPpbszBmzVHzlo9hNuawtb2PxOjG-2Bz6HhYsgMI85KicldO0kIf8rvrZBJYAch0NsL=
+-2BAUheutH8gyAX1p8co83sDEM3nc5whL5TFkOWSLTMfsWg5l5PHXXtp71uKYyBObbEOqioR-2B=
+VcFVv4uost" style=3D"font-family: Helvetica Neue, Helvetica, Arial, Lucida =
+Grande, sans-serif;color: #5865f2;">=E7=A4=BE=E5=8C=BA=E5=AE=88=E5=88=99</a=
+>=E3=80=82=E9=9A=8F=E7=9D=80=E6=88=91=E4=BB=AC=E4=B8=9A=E5=8A=A1=E7=9A=84=
+=E5=8F=91=E5=B1=95=E6=88=96=E4=B8=BA=E4=BA=86=E5=93=8D=E5=BA=94=E6=96=B0=E6=
+=B3=95=E5=BE=8B=EF=BC=8C=E6=88=91=E4=BB=AC=E4=BC=9A=E5=AE=9A=E6=9C=9F=E5=AF=
+=B9=E5=85=B6=E8=BF=9B=E8=A1=8C=E6=9B=B4=E6=96=B0=E3=80=82</p>
+<p>=E8=BF=99=E4=BA=9B=E6=9B=B4=E6=96=B0=E5=B0=86=E4=BA=8E <strong>2024 =E5=
+=B9=B4 4 =E6=9C=88 15 =E6=97=A5</strong>=E7=94=9F=E6=95=88=E3=80=82</p>
+<p>=E4=BB=A5=E4=B8=8B=E6=98=AF=E6=AD=A4=E6=AC=A1=E6=9B=B4=E6=96=B0=E7=9A=84=
+=E4=B8=80=E4=BA=9B=E4=BA=AE=E7=82=B9=EF=BC=9A</p>
+<ul>
+<li style=3D"font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, =
+sans-serif;font-size: 16px;color: #5865f2;margin: 12px 0;letter-spacing: 0;=
+line-height: 22px;font-weight: 600;"><span style=3D"color: #747F8D;font-wei=
+ght: 400;"><strong>=E6=88=91=E4=BB=AC=E5=A6=82=E4=BD=95=E6=8F=8F=E8=BF=B0=
+=E8=87=AA=E5=B7=B1=E7=9A=84=E6=9C=8D=E5=8A=A1=EF=BC=9A</strong>=E8=AE=A9=E6=
+=82=A8=E8=83=BD=E6=9B=B4=E5=AE=B9=E6=98=93=E7=90=86=E8=A7=A3 Discord =E7=9A=
+=84=E5=B7=A5=E4=BD=9C=E6=96=B9=E5=BC=8F=E3=80=81=E6=88=91=E4=BB=AC=E6=8F=90=
+=E4=BE=9B=E7=9A=84=E5=8A=9F=E8=83=BD=E4=BB=A5=E5=8F=8A=E5=A6=82=E4=BD=95=E4=
+=B8=BA=E6=82=A8=E6=8F=90=E4=BE=9B=E4=B8=AA=E6=80=A7=E5=8C=96=E6=9C=8D=E5=8A=
+=A1=E3=80=82 </span></li><li style=3D"font-family: Helvetica Neue, Helvetic=
+a, Arial, Lucida Grande, sans-serif;font-size: 16px;color: #5865f2;margin: =
+12px 0;letter-spacing: 0;line-height: 22px;font-weight: 600;"><span style=
+=3D"color: #747F8D;font-weight: 400;"><strong>=E6=88=91=E4=BB=AC=E5=A6=82=
+=E4=BD=95=E8=A7=A3=E5=86=B3=E7=BA=A0=E7=BA=B7=EF=BC=9A</strong>=E6=9B=B4=E6=
+=96=B0=E4=BA=86=E6=88=91=E4=BB=AC=E7=9A=84=E9=9D=9E=E6=AD=A3=E5=BC=8F=E7=BA=
+=A0=E7=BA=B7=E8=B0=83=E8=A7=A3=E6=B5=81=E7=A8=8B=E5=92=8C=E4=BB=B2=E8=A3=81=
+=E5=8D=8F=E8=AE=AE=E3=80=82=E6=88=91=E4=BB=AC=E4=BC=9A=E5=8A=AA=E5=8A=9B=E8=
+=AE=A9=E6=82=A8=E4=B8=80=E5=A6=82=E6=97=A2=E5=BE=80=E5=9C=B0=E7=83=AD=E7=88=
+=B1 Discord=EF=BC=8C=E4=B9=9F=E5=B8=8C=E6=9C=9B=E6=B0=B8=E8=BF=9C=E4=B8=8D=
+=E4=BC=9A=E5=8F=91=E7=94=9F=E7=BA=A0=E7=BA=B7=EF=BC=81</span></li><li style=
+=3D"font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-seri=
+f;font-size: 16px;color: #5865f2;margin: 12px 0;letter-spacing: 0;line-heig=
+ht: 22px;font-weight: 600;"><span style=3D"color: #747F8D;font-weight: 400;=
+"><strong>=E6=88=91=E4=BB=AC=E5=A6=82=E4=BD=95=E4=BF=9D=E6=8A=A4=E9=9A=90=
+=E7=A7=81=EF=BC=9A</strong>=E6=8F=90=E4=BE=9B=E4=BA=86=E6=9B=B4=E5=A4=9A=E5=
+=85=B3=E4=BA=8E=E9=9A=90=E7=A7=81=E6=9D=83=E5=8F=8A=E5=85=B6=E8=A1=8C=E4=BD=
+=BF=E6=96=B9=E5=BC=8F=E7=9A=84=E4=BF=A1=E6=81=AF=E3=80=82=E6=88=91=E4=BB=AC=
+=E8=BF=98=E6=9B=B4=E6=96=B0=E4=BA=86=E5=85=B3=E4=BA=8E=E6=94=B6=E9=9B=86=E5=
+=93=AA=E4=BA=9B=E6=95=B0=E6=8D=AE=E4=BB=A5=E5=8F=8A=E5=A6=82=E4=BD=95=E4=BD=
+=BF=E7=94=A8=E8=BF=99=E4=BA=9B=E6=95=B0=E6=8D=AE=E7=9A=84=E4=BF=A1=E6=81=AF=
+=E3=80=82=E6=88=91=E4=BB=AC=E9=9D=9E=E5=B8=B8=E9=87=8D=E8=A7=86=E7=94=A8=E6=
+=88=B7=E9=9A=90=E7=A7=81=EF=BC=8C=E4=BC=9A=E5=B0=BD=E9=87=8F=E9=99=90=E5=88=
+=B6=E6=88=91=E4=BB=AC=E6=94=B6=E9=9B=86=E7=9A=84=E4=BF=A1=E6=81=AF=EF=BC=8C=
+=E5=B9=B6=E8=AE=A9=E6=82=A8=E8=83=BD=E5=9C=A8 Discord =E4=B8=8A=E6=8E=A7=E5=
+=88=B6=E8=87=AA=E5=B7=B1=E7=9A=84=E9=9A=90=E7=A7=81=E3=80=82</span></li><li=
+ style=3D"font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, san=
+s-serif;font-size: 16px;color: #5865f2;margin: 12px 0;letter-spacing: 0;lin=
+e-height: 22px;font-weight: 600;"><span style=3D"color: #747F8D;font-weight=
+: 400;"><strong>=E6=88=91=E4=BB=AC=E5=A6=82=E4=BD=95=E8=A7=A3=E9=87=8A=E7=
+=A4=BE=E5=8C=BA=E5=AE=88=E5=88=99=EF=BC=9A</strong>=E6=B7=BB=E5=8A=A0=E4=BA=
+=86=E6=9B=B4=E5=A4=9A=E8=83=8C=E6=99=AF=E4=BF=A1=E6=81=AF=EF=BC=8C=E4=BD=BF=
+=E6=88=91=E4=BB=AC=E7=9A=84=E5=AE=88=E5=88=99=E6=9B=B4=E6=98=93=E4=BA=8E=E7=
+=90=86=E8=A7=A3=E3=80=82   </span></li></ul>
+<p>=E6=88=91=E4=BB=AC=E9=BC=93=E5=8A=B1=E6=82=A8=E5=AE=8C=E6=95=B4=E9=98=85=
+=E8=AF=BB=E6=9B=B4=E6=96=B0=E5=90=8E=E7=9A=84=E6=96=87=E6=A1=A3=E3=80=82=E6=
+=88=91=E4=BB=AC=E8=BF=98=E5=9C=A8<a href=3D"https://click.discord.com/ls/cl=
+ick?upn=3Du001.a0NJ38DJJG1sulNx5wS1jhNGCBLBXgwpsgIobogv2M6mmdbkBJilWqd8VZK9=
+QLhqOd0s_jSCDUBFAAvJvCiGI1G3VrJZH5xdDT9kzqLVOllaywr4P5qFjADz8o412mDJp3vgPM0=
+HsS-2FZ8hmo6alhPNWLZUJdMGTk4oUoJRlXQL88Rq-2FYTr4l7VPLUvLaRopq7ztOPGssWmwNYH=
+0gXePLYCaAsXtw9s6P9Vd0wPigsXAmHKof6hbx-2Bo4R2g8p-2B3GghuLTb4-2BUeG1-2FWVo41=
+OV-2BGDnaYHRztgwq0ZKmh0lFqVqQ-2BdzwYjWkf5S2vhL9qJu8WLKIu" style=3D"font-fam=
+ily: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;color: #58=
+65f2;">=E5=8D=9A=E5=AE=A2</a>=E4=B8=8A=E6=80=BB=E7=BB=93=E4=BA=86=E9=87=8D=
+=E8=A6=81=E6=9B=B4=E6=96=B0=E5=86=85=E5=AE=B9=E3=80=82</p>
+<p>=E6=84=9F=E8=B0=A2=E6=82=A8=E5=B8=AE=E5=8A=A9=E6=88=91=E4=BB=AC=E5=B0=86=
+ Discord =E6=89=93=E9=80=A0=E6=88=90=E8=81=8A=E5=A4=A9=E7=9B=B8=E8=81=9A=E7=
+=9A=84=E6=9C=80=E4=BD=B3=E5=9C=BA=E6=89=80=EF=BC=81</p>
+<p>Discord</p>
+</div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table></td></tr><![endif]-->
+       =20
+          <!--[if mso | IE]><tr><td class=3D"footer-outlook" width=3D"604" =
+><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" c=
+lass=3D"footer-outlook" role=3D"presentation" style=3D"width:604px;" width=
+=3D"604" bgcolor=3D"transparent" ><tr><td style=3D"line-height:0px;font-siz=
+e:0px;mso-line-height-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div  class=3D"footer" style=3D"background:transparent;background-col=
+or:transparent;margin:0px auto;max-width:604px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:transparent;background-color:tr=
+ansparent;width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:20px 0;paddin=
+g-bottom:0px;text-align:center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:604px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-siz=
+e:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top=
+;width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"vertical-align:top;" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"center" style=3D"font-size:0px;padding:0;word-b=
+reak:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lu=
+cida Grande, sans-serif;font-size:12px;line-height:24px;text-align:center;c=
+olor:#99AAB5;"
+      >=E7=94=B1 Discord =E5=8F=91=E9=80=81 &bull;
+      <a href=3D"https://click.discord.com/ls/click?upn=3Du001.a0NJ38DJJG1s=
+ulNx5wS1jg47LNijrYlxYHgEj-2F4b07UMFx-2FY1i3YU2fQrHXY43AC6Uo6_jSCDUBFAAvJvCi=
+GI1G3VrJZH5xdDT9kzqLVOllaywr4P5qFjADz8o412mDJp3vgP7QxTTxXVEiQneMOJFlhBIYV2P=
+Zww2qWNbiMS93Qr-2Fl7-2B9lme1PGX-2BMYFyOwWgi4eCKJpchTT38agTgIdlNQXXmCwLwCuiu=
+IXjIcE969tP3MKLPOvaElWjXc-2BeOiHhJjA-2Bve-2F-2FkOzBbO7o8-2FjvQUAT-2B9vZruCE=
+sTvaRuLZpd4Oo61HQxUd2abkhpZl5Ph-2Bozk" style=3D"color: #0067E0; text-decora=
+tion: none"
+        >=E6=9F=A5=E7=9C=8B=E6=88=91=E4=BB=AC=E7=9A=84=E5=8D=9A=E5=AE=A2</a
+      >
+      &bull; <a href=3D"https://click.discord.com/ls/click?upn=3Du001.a0NJ3=
+8DJJG1sulNx5wS1jnpxPanz-2BDufkvgs2NaX85-2BGP-2BXsyAU8iwP8huE2m291JvPX_jSCDU=
+BFAAvJvCiGI1G3VrJZH5xdDT9kzqLVOllaywr4P5qFjADz8o412mDJp3vgP-2Bw8HeeFWXr2Plm=
+mbLvhkDzmQmB7InvWw3QXcG-2BTq-2B8Iuf8kjNAwBMFXIPfoCOfyEGwKmeoawBX5WRv-2BpU32=
+6ALdeDX9szNdi0qe4-2BoULngVaXUkDWf8k5xM1KdACxC-2FXiulm6iSmeOGJfYTqNBvQCVEmOm=
+jOh0gkv6MeNcIfh3eWM-2BIgBHspbVZBc0-2BM7sZO" style=3D"color: #0067E0; text-d=
+ecoration: none">@discord</a></div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"center" style=3D"font-size:0px;padding:0;word-b=
+reak:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lu=
+cida Grande, sans-serif;font-size:12px;line-height:24px;text-align:center;c=
+olor:#99AAB5;"
+      >444 De Haro Street, Suite 200, San Francisco, CA 94107</div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:0;word-bre=
+ak:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Poppins, Helvetica Neue, Helvetica, Arial, Lu=
+cida Grande, sans-serif;font-size:13px;line-height:1;text-align:left;color:=
+#000000;"
+      ><img src=3D"https://discord.com/api/science/1056595604547059762/859a=
+07f7-748e-423f-8b42-e0f3d75356ae.gif?properties=3DeyJlbWFpbF90eXBlIjogInRvc=
+191cGRhdGUiLCAiY2F0ZWdvcnkiOiAidHJhbnNhY3Rpb25hbCJ9" width=3D"1" height=3D"=
+1" /></div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+   =20
+   =20
+      </div>
+   =20
+      <img src=3D"https://click.discord.com/wf/open?upn=3Du001.g7ZoKLruN-2B=
+-2F1EDk7olNbXvLMZXGpKzv7L3IPfDswQiJJMjKxr-2B0htYB3FjNxIv4NrcN-2BLOLfFTc5yS3=
+Q-2FWI47-2B9zeS0RZWmed5uy-2BDicw71IotWkL4VE6prZRRoXZG2foCf-2BzdZdAtLD4wHGx9=
+TJ-2BO-2FiNdb3D5sEG528roHwaUQ5-2FABY35a2Md1AIg1y0N27FNWSnuWHtXG4uoEShb4NYbQ=
+CZr3fR7SphY-2BrNfQ8-2B-2FPvhKAe-2ByeZXzMiO35-2B5ckA" alt=3D"" width=3D"1" h=
+eight=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !importan=
+t;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !import=
+ant;margin-right:0 !important;margin-left:0 !important;padding-top:0 !impor=
+tant;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 =
+!important;"/></body>
+    </html>
+ =20=
+
+--dc7bdffcf1fbe8bccd42122fa8ae4cd1600a1b25b80d1bd9ad6a6e4d7cf5--

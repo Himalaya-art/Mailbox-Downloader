@@ -1,0 +1,193 @@
+Received: from a8-51.smtp-out.amazonses.com (a8-51.smtp-out.amazonses.com [54.240.8.51])
+	by newxmmxszc6-5.qq.com (NewMX) with SMTP id 8D233671
+	for <3297839541@qq.com>; Sun, 21 May 2023 15:35:18 +0800
+X-QQ-mid: xmmxszc6-5t1684654518tmmz7n6ki
+Sender: 010001883d3bee28-11adceec-180e-4272-8d43-ba4df6e31086-000000@amazonses
+	 .com
+X-QQ-CSender: 010001883d3bee28-11adceec-180e-4272-8d43-ba4df6e31086-000000@ama
+	 zonses.com
+X-QQ-XMAILINFO: NqyNaysCYMTCV7zUundRy/Ckhz4qaNp5vSFb1x2VQx1OupkwWvRPUhK7sW+NYT
+	 rDe7mzg0PeCrVjY3OBnbxpRxehkqhQa0zS6Sr/DgsBTe8z7g2MlE8CI+ZUKBP48Tzv7y1osc8v60
+	 tl+R9klv+nBOTEPCIzKV3OYdaHLwo1krDntzhjONe5fu+r2iQAFjME5dCNcdEBPXLSDeS+ZtrnK7
+	 5g2UvGmc7J7WwyGvvQI57m1hxX8Be0bnpJ71nh+c7uZKlew7CC+sJx/4RzoWNAFnizwA6kghaQ/2
+	 boXU12kfTagG6rx1h44JdauMn0jTr1a5197DLAtoybuTCeTkHw+x7JxZSKf3NhRzQANylk0LIos7
+	 9a7zLnBr2U5RqmYcl6qA/9/NI6FT/rHaSgyHyuGWp74hOjdnX7GWy70/8URESJnrFy+fqnOJZyJn
+	 6/41TdRZRL2W/Br/emb2ydLhvlUxVp5KF+h8QKMTmCvdA4g0gePc2P5yLFPkKwvXJHp1ScGoafza
+	 Ne6FUVeWAN+Qy907zZftJQ8fCfG88vx2yIfL4hx36oac7WfEss3CvXuXCbKpIchz+ZVXK/XdToLJ
+	 +s8GBxOlE2+XY+mRfrB0dmQZxOt1yzh6yKhbhWib/eFh5+p6/3rWB+ZB2U7FpUyh2kpO+zBCPFCl
+	 E1DxVlXPtxqHsTc9k5E3gBXVbk6h967NffkxLDQYQRz2bJ8ZIUqnHP1gmVJVNuYe5LHcpeFTpLid
+	 noxnbSjji8QPigtD6ZKahq1zywSpyRn+DOCCwRFb95RzN7JsW6M2rgkSMlkhwRTq8hk+1wW6ZUEt
+	 wsY3oTpDKHOix/o9+cSgvuHuNCoSZ3sXp512qTiRwGtaWpkx7+TwpLwiPPXb4M6WSkkRIVxovTlp
+	 FlDgFAPDn6O+pgG6PRFlnDmeOwzIMMQS81tflYA9dhRDJ5HQCxEYgnROyMWvb4zinxyqDRpPFA6F
+	 s13/k6XNobSYtT0XHP7J1rkKcD97OOZho917UYCKVJ55M3ZKXI3h3NXa+isFdbU5zTNnYmz7mRbk
+	 A/Llh0/WmQYklqWMQMxraColCJZV8DiJoH8ExIDzdkyOnHUN7Zq+JgpqbSpJH3GmFZsoCIOQ9bzu
+	 cANrNfs9eiqwjo6rSsGvempRH4ksgUHpdc7pO9u7/O14oHPRvY4/VdIq27x/Vh4D6kK0O8tu2zVe
+	 hSPrNJXZD9LBOvIROYoAPsXmpUMn+J5vbvLCJEKzZghPnYtECBKyjJ1vHsx8vi8QIWQhTRvwtqN2
+	 dB7lJGN+aV/KDYGKaW+raWAksVAJeR1Zxb7Q==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=y4xsguaogh42jufosfucpekwkuwsqkg7; d=f95zone.com; t=1684654517;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type;
+	bh=HFEoVsd4iUUyA1ApaGN8y5ijs9OZB3ie2oqJmRBiBOQ=;
+	b=J0ZbQe/VxeM3ljl2e5d2b8IwY3EDYxPvpmdebjTqLi2ICNsyyhXZG6jUl8SEmoQk
+	9hoQqqL3y6Mm5rVOyyt1tDyQtYI9pvYgYKzMZ5ZzbZWzltERDKtKt6ps+LY6cI8gesR
+	tfTw6vnI8XJTCkxar1K8D4EgbgakoBrMbz9+/OcY=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1684654517;
+	h=Message-ID:Date:Subject:From:To:MIME-Version:Content-Type:Feedback-ID;
+	bh=HFEoVsd4iUUyA1ApaGN8y5ijs9OZB3ie2oqJmRBiBOQ=;
+	b=hvi+XtsGgLKcQ4T1Tagclr6tzRqCy+Ye18Sv4JFmXltr+lyA54deRhYj9r1zihHi
+	8BxJkLbyPh5ZG7Li/ey2aw30wv5VnkA6ySZhesjrCUPRdW2fb857smNeqx5RfRrWhJI
+	c6c9nj4/UXhDbFU8wS3BMpBDBavL+aIzPH5WQmdw=
+Message-ID: <010001883d3bee28-11adceec-180e-4272-8d43-ba4df6e31086-000000@email.amazonses.com>
+Date: Sun, 21 May 2023 07:35:17 +0000
+Subject: Email verification code
+From: F95zone <admin@f95zone.com>
+To: Guest <3297839541@qq.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1684654517_37627cd85746c7d54f80e5b39b3bec32_=_"
+X-To-Validate: 911340a8+3297839541@qq.com
+Feedback-ID: 1.us-east-1.cxFYBVCQy/KkMjACFmar04ZAZ5gmyoqsGJQQcbbMGhI=:AmazonSES
+X-SES-Outgoing: 2023.05.21-54.240.8.51
+
+
+--_=_swift_v4_1684654517_37627cd85746c7d54f80e5b39b3bec32_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+You requested email verification code for 3297839541@qq.com at F95zone (htt=
+ps://f95zone.to/).
+
+Your email verification code is: aBZnKgcEvJF77Gzv=
+
+
+Click here to continue registration (https://f95zone.to/register/?ema=
+il_verification_code=3DaBZnKgcEvJF77Gzv)
+
+-----------------------------=
+
+
+Visit F95zone: https://f95zone.to/
+
+--_=_swift_v4_1684654517_37627cd85746c7d54f80e5b39b3bec32_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en-US" dir=3D"LTR" style=3D"font-size: 62.5=
+%;">
+<head>
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html; =
+charset=3Dutf-8">
+=09<base href=3D"https://f95zone.to/">
+=09<meta name=
+=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1">
+=09<me=
+ta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+=09<meta name=3D=
+"format-detection" content=3D"telephone=3Dno">
+=09<title>Email verificati=
+on code</title>
+</head>
+<body dir=3D"LTR" leftmargin=3D"0" topmargin=3D=
+"0" marginwidth=3D"0" marginheight=3D"0" style=3D"margin: 0; padding: 0; wo=
+rd-wrap: break-word; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: =
+100%; background-color: #181a1d; font-size: 14px; font-family: Open Sans,Ve=
+rdana,Arial,sans-serif; line-height: 1.4; color: #eeeeee;">
+
+<table id=
+=3D"bodyTable" border=3D"0" width=3D"100%" height=3D"100%" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"border-spacing: 0; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt; border-collapse: collapse; margin: 0; padding: 0; backgr=
+ound-color: #181a1d; height: 100%; width: 100%;">
+<tr>
+=09<td align=3D"=
+center" valign=3D"top" id=3D"bodyTableContainer" style=3D"border-collapse: =
+collapse; background-color: #181a1d;">
+=09=09<table border=3D"0" width=3D=
+"600" cellpadding=3D"0" cellspacing=3D"0" class=3D"container" dir=3D"LTR" s=
+tyle=3D"border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; bo=
+rder-collapse: collapse; width: 100%; max-width: 600px;">
+=09=09<tr>
+=
+=09=09=09<td class=3D"header" align=3D"center" valign=3D"top" style=3D"bord=
+er-collapse: collapse; color: #eeeeee; padding: 10px 14px; border-top-left-=
+radius: 8px; border-top-right-radius: 8px; font-family: Open Sans,Verdana,A=
+rial,sans-serif; font-size: 23.5px; line-height: 1.4;">
+=09=09=09=09<a hr=
+ef=3D"https://f95zone.to/" style=3D"text-decoration: none; color: #eeeeee;"=
+>F95zone</a>
+=09=09=09</td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td cla=
+ss=3D"content" align=3D"left" valign=3D"top" style=3D"border-collapse: coll=
+apse; background-color: #242629; border-radius: 4px; color: #eeeeee; paddin=
+g: 14px; font-size: 14px; font-family: Open Sans,Verdana,Arial,sans-serif; =
+line-height: 1.4;">
+
+
+
+=09
+
+<p style=3D"margin-top: 0;">You req=
+uested email verification code for 3297839541@qq.com at <a href=3D"https://=
+f95zone.to/" style=3D"color: #ec5555; text-decoration: none;">F95zone</a>.<=
+/p>
+
+<p>Your email verification code is: <code>aBZnKgcEvJF77Gzv</code><=
+/p>
+=09
+<table cellpadding=3D"10" cellspacing=3D"0" border=3D"0" width=
+=3D"100%" class=3D"linkBar" style=3D"border-spacing: 0; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt; border-collapse: collapse; padding: 10px; backgr=
+ound-color: #242629; border-top: 1px solid #343638;">
+=09<tr>
+=09=09<td=
+ style=3D"border-collapse: collapse;">
+=09=09=09<a href=3D"https://f95zon=
+e.to/register/?email_verification_code=3DaBZnKgcEvJF77Gzv" class=3D"button"=
+ style=3D"display: inline-flex; padding: 5px 10px; background-color: transp=
+arent; font-weight: 400; border-radius: 4px; padding-top: 0; padding-right:=
+ 12px; padding-bottom: 0; padding-left: 12px; text-align: center; outline: =
+none; line-height: 32px; height: 32px; text-decoration: none; align-items: =
+center; justify-content: center; cursor: pointer; box-sizing: content-box; =
+-webkit-appearance: none; will-change: box-shadow; transition: all .3s cubi=
+c-bezier(.25, .8, .25, 1); white-space: nowrap; text-shadow: 0px 0px 3px #8=
+11f24; color: #fff; background: #ec5555; text-transform: uppercase; box-sha=
+dow: 0 4px 15px 0 rgba(0,0,0,0.2); border: none; font-size: 14px;">Click he=
+re to continue registration</a>
+=09=09</td>
+=09</tr>
+</table>
+
+=
+=09
+
+
+=09=09=09</td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<td class=
+=3D"footer" align=3D"center" valign=3D"top" style=3D"border-collapse: colla=
+pse; padding: 10px 14px; text-align: center; color: #9398a0; font-size: 14p=
+x; font-family: Open Sans,Verdana,Arial,sans-serif; line-height: 1.4;">
+=
+=09=09=09=09<div><a href=3D"https://f95zone.to/" style=3D"color: #9398a0; t=
+ext-decoration: underline;">Visit F95zone</a></div>
+
+=09=09=09=09
+=09=
+=09=09</td>
+=09=09</tr>
+=09=09</table>
+=09</td>
+</tr>
+</table>
+=
+
+</body>
+</html>
+
+--_=_swift_v4_1684654517_37627cd85746c7d54f80e5b39b3bec32_=_--
+

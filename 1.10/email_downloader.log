@@ -1,0 +1,40 @@
+2025-03-30 02:25:05,111 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:25:05,135 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:25:05,208 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:25:05,208 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:25:06,480 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:25:06,482 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:25:07,882 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:25:08,059 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:25:08,062 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:25:09,942 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:25:10,035 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:25:10,036 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:25:10,038 - INFO - 成功下载 4 封邮件
+2025-03-30 02:58:40,228 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:58:40,336 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:58:40,961 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:58:40,966 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:58:41,028 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:58:41,029 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:58:41,598 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:58:41,706 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:58:41,707 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:58:43,836 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 02:58:43,940 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 02:58:43,942 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 02:58:43,946 - INFO - 成功下载 4 封邮件
+2025-03-30 03:02:46,000 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 03:02:46,137 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 03:02:46,232 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 03:02:46,234 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 03:02:46,258 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 03:02:47,812 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 03:02:47,813 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 03:02:47,883 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 03:02:47,885 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 03:02:50,369 - ERROR - IMAP连接错误: 'int' object is not subscriptable
+2025-03-30 03:02:50,483 - ERROR - 下载邮件时发生错误: 'int' object is not subscriptable
+2025-03-30 03:02:50,484 - ERROR - 邮件下载失败: 'int' object is not subscriptable
+2025-03-30 03:05:58,993 - INFO - 成功下载 4 封邮件
+2025-03-30 03:06:31,591 - INFO - 成功下载 4 封邮件

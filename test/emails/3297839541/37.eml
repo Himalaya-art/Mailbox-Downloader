@@ -1,0 +1,172 @@
+Received: from mail136-29.atl41.mandrillapp.com (mail136-29.atl41.mandrillapp.com [198.2.136.29])
+	by newxmmxszc3-1.qq.com (NewMX) with SMTP id 6F2B108D
+	for <3297839541@qq.com>; Mon, 26 Dec 2022 01:27:50 +0800
+X-QQ-mid: xmmxszc3-1t1671989270tb0r539me
+Sender: bounce-md_31165340.63a88816.v1-5dab1e8c472b41159bdd5e5b52c1c183@mandri
+	 llapp.com
+X-QQ-CSender: bounce-md_31165340.63a88816.v1-5dab1e8c472b41159bdd5e5b52c1c183@
+	 mandrillapp.com
+X-QQ-XMAILINFO: N4gU3xmcAWbukPzDiRX/BvZzbSWwnO80rNl8kXJj3p1buAY0g24idNxK9reDrn
+	 ddTAwU/wkvsksjUpU6Z6rTYrQhlrrB72qYu4caflSeiY62BTgBCpwERGZTXTpqz2yPU7mGMFNQ5t
+	 tLf9/aWhpNBg1w39odkspa5gJZ7prMQc5MbAXW2Eiy4pIerLq5DHMYZgxd8cjLs8YnUz64moaMCe
+	 FPZjy9/1sHozU5MacBSYUug11lnV9NyFluV7XMo/0juYL0E6UUa4Y/QvEObFODBkvHsZ66rq2mnG
+	 LfXhjw8bVisyZUTI/+/yLpJHuW97RIZAE6ObK1kdqpDn0LxQUQ0lmdhM5sSjI9NkimDbameb0nDV
+	 agjqSj5bL8a7z3hpJpj5FjtvoyryzyFelR8hpjxBuspXTQbRaT+Fmsab4UKIzlG6sOiCH9XLKzWK
+	 aM9ACP12fGFsJoXmaq1+NSPZweHnEhO9Ih/MK25xvMfgq9uVX+b21z0aMYINjvaPz3SSVGklbsF1
+	 hGBNFiKD8RvYiH4srAmgFtL7zLCbTVczd0slqEpY1iQicIq+hYF2hdCfXujuiTiAhMjiWvBWTunv
+	 /y0+4ggN2+V2IC+et8t21lQIYjNMAMNFzshWSa7zl1jIt6hvD0lnmd1SkrQjXCdrj8ozGATR5qpR
+	 ilToN7w/vaKbc2lLSD0Pn+rIju02s+qGckYicdEcZVD3E/9s18izCXRNeO+ZGjBwxXEV8983jRTf
+	 tvZgUvLj5GA9dZh77jguYDKXVHswQnqE0Eskx4ApwQ+T/83mTCAXwrzjURugNBWJ+2fX0En57TAX
+	 rahqYGa5HCXT6pLgBjl4S845eOYyUqeiOQAz/mykL353PNUlvm0Sei1cNXWNtX1vTz0Kl6qcsbN9
+	 IpBNK8hHx7NQxmDRYBFFmjABfrO5SeYazYWz7JX8EFtuEjyOrGIbcgB74EYcsMnp+6XlaeB3GcGc
+	 MHxSwdJ8xLoArOJ7gh8IV1eNM0Kk9OOKD/eWQo1Bt+BRImOPOregScFWiXuGaY8rgPdbqNSkI8oO
+	 gJ+Klpz6JIE023M1YDrUuNVjl5NjwUObzGit58WmJlS+f039dlWHJvBObcLaUOUf1WXZ4xZJrwwS
+	 KxYGrdtEdbxKqfAim0UMrl1oXE/ej4z9SfENUpF6vvO/3UPsuu2OqcaoTuxOOdh+wSS1Q0zU8pp+
+	 hiDyKC9XBT2D/Au/xSmo0vHtMI6/CJKMqntouSw5Fu4h+JzSPPSiIDRFNmwo4B+QRu2JdWDyH8/Q
+	 t7Ezm9GroZakjnUuaUsEfYAqBD4GfTa3+v96TqAJMEi4EHDh3immmyWMGy6JqfWXQEbPdz+nN9Ra
+	 ag
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tm.openai.com;
+	s=mandrill; t=1671989270; x=1672291670; i=noreply@tm.openai.com;
+	bh=L7ObFyHDLGPYoAnaLiqFk2TeAFBjv+JMh6KvxZqaB20=;
+	h=From:Subject:To:Feedback-ID:Message-Id:Date:MIME-Version:
+	 Content-Type:CC:Date:Subject:From;
+	b=Dk+OC1xKxamc28ft7gVMvU8AJsUydskrEk48rzbQyJ2axHKMgt+LPk7PLMf4GWyhi
+	 4sc9oyNslzPvo1kIH2Yvs+xgfwv9VCwSIxewaMXCK3lneLCw3PNwukoMrLFITVE8eW
+	 QVJGISHYk3iQU4O4XM3uPsYsT8cRRtSYfamVFyxc=
+Received: from pmta11.mandrill.prod.atl01.rsglab.com (localhost [127.0.0.1])
+	by mail136-29.atl41.mandrillapp.com (Mailchimp) with ESMTP id 4Ng7Cp4Fd8z6CPy7s
+	for <3297839541@qq.com>; Sun, 25 Dec 2022 17:27:50 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1671989270; h=From : 
+ Subject : To : Message-Id : Date : MIME-Version : Content-Type : From : 
+ Subject : Date : X-Mandrill-User : List-Unsubscribe; 
+ bh=L7ObFyHDLGPYoAnaLiqFk2TeAFBjv+JMh6KvxZqaB20=; 
+ b=fQ2ipzWw/VT/KBeLM5ChGHD8Vu9ab39Xxk8U4c58bNkzutpoAK0EurcT/jCNQQ7RZ5Hujn
+ KWZ9DF+36uBU67UpOPD5XzmwUR6VWbdMbdTki2WZrTTOmzIB3XgDyimOIEILQZh7XgRyrwje
+ EpCwKWuh5XXbZfFuFfUSjjgLU1PVY=
+From: OpenAI <noreply@tm.openai.com>
+Subject: OpenAI - Verify your email
+Received: from [35.167.74.121] by mandrillapp.com id 5dab1e8c472b41159bdd5e5b52c1c183; Sun, 25 Dec 2022 17:27:50 +0000
+To: 3297839541@qq.com
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=31165340.5dab1e8c472b41159bdd5e5b52c1c183
+X-Mandrill-User: md_31165340
+Feedback-ID: 31165340:31165340.20221225:md
+Message-Id: <31165340.20221225172750.63a8881672e625.97130343@mail136-29.atl41.mandrillapp.com>
+Date: Sun, 25 Dec 2022 17:27:50 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_av-qqz-lNjHBMTbQDDG-xGoLw"
+
+--_av-qqz-lNjHBMTbQDDG-xGoLw
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Verify your email address
+
+              
+                To continue setting up your OpenAI account, please verify that this is your email address.
+              
+              
+              
+                
+                    Verify email address
+                 ( https://auth0.openai.com/u/email-verification?ticket=jHDhJc8ciJOjoL9XGJkZeELuUBY1WmzI# ) 
+                
+            
+			
+				
+                This link will expire in 5 days. If you did not make this request, please disregard this email. For help, contact us through our Help center ( https://help.openai.com ) .
+--_av-qqz-lNjHBMTbQDDG-xGoLw
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <head>
+    <style type=3D"text/css">
+      .ExternalClass,.ExternalClass div,.ExternalClass font,.ExternalClass =
+p,.ExternalClass span,.ExternalClass td,img {line-height: 100%;}#outlook a =
+{padding: 0;}.ExternalClass,.ReadMsgBody {width: 100%;}a,blockquote,body,li=
+,p,table,td {-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}tab=
+le,td {mso-table-lspace: 0;mso-table-rspace: 0;}img {-ms-interpolation-mode=
+: bicubic;border: 0;height: auto;outline: 0;text-decoration: none;}table {b=
+order-collapse: collapse !important;}#bodyCell,#bodyTable,body {height: 100=
+% !important;margin: 0;padding: 0;font-family: Helvetica, Arial, sans-serif=
+;}#bodyCell {padding: 20px;}#bodyTable {width: 560px;}@media only screen an=
+d (max-width: 480px) {#bodyTable,body {width: 100% !important;}a,blockquote=
+,body,li,p,table,td {-webkit-text-size-adjust: none !important;}body {min-w=
+idth: 100% !important;}#bodyTable {max-width: 560px !important;}#signIn {ma=
+x-width: 280px !important;}}
+    </style>
+  </head>
+  <body style=3D"background-color: #ffffff;">
+    <center>
+=09<table style=3D"width: 560px;-webkit-text-size-adjust: 100%;-ms-text-siz=
+e-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;paddin=
+g: 0;font-family: Helvetica, Arial, sans-serif;border-collapse: collapse !i=
+mportant;height: 100% !important;background-color: #ffffff;" align=3D"cente=
+r" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=3D"100%" width=
+=3D"100%" id=3D"bodyTable">
+=09=09<tr>
+=09=09<td align=3D"center" valign=3D"top" id=3D"bodyCell" style=3D"-webkit-=
+text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso=
+-table-rspace: 0pt;margin: 0;padding: 0;font-family: Helvetica, Arial, sans=
+-serif;height: 100% !important;">
+            <div class=3D"top" style=3D"background-color: #ffffff;color:#20=
+2123; padding: 27px 20px 0 15px;">
+=09=09=09<p style=3D"text-align: left;-webkit-text-size-adjust: 100%;-ms-te=
+xt-size-adjust: 100%; margin: 0;">
+=09=09=09=09<img src=3D"https://cdn.openai.com/API/logo-assets/openai-logo-=
+email-header-1.png" width=3D"560" height=3D"168" alt=3D"OpenAI" title=3D"" =
+style=3D"width:140px;height:auto;-ms-interpolation-mode: bicubic;border: 0;=
+line-height: 100%;outline: none;text-decoration: none;" />
+=09=09=09</p>
+=09=09=09</div>
+            <div class=3D"main" style=3D"background-color: #ffffff;color:#3=
+53740; padding: 40px 20px;text-align: left; line-height:1.5;">
+              <h1 style=3D"color:#202123;font-size: 32px; line-height: 40px=
+; margin: 0 0 20px;">Verify your email address</h1>
+
+              <p style=3D"font-size: 16px; line-height: 24px;">
+                To continue setting up your OpenAI account, please verify t=
+hat this is your email address.
+              </p>
+              
+              <p style=3D"margin: 24px 0 0; text-align: left;">
+                <a href=3D"https://mandrillapp.com/track/click/31165340/aut=
+h0.openai.com?p=3DeyJzIjoiUGh2ZUtrdnMwemRXcXBjVnZFenA3LXROMFNjIiwidiI6MSwic=
+CI6IntcInVcIjozMTE2NTM0MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2F1dGgw=
+Lm9wZW5haS5jb21cXFwvdVxcXC9lbWFpbC12ZXJpZmljYXRpb24_dGlja2V0PWpIRGhKYzhjaUp=
+Pam9MOVhHSmtaZUVMdVVCWTFXbXpJI1wiLFwiaWRcIjpcIjVkYWIxZThjNDcyYjQxMTU5YmRkNW=
+U1YjUyYzFjMTgzXCIsXCJ1cmxfaWRzXCI6W1wiMWM3OTUyMjNiMmQ0YmUwMjBmZDJhNTBmMmM5Y=
+zQxZjEwMThlNDU0Y1wiXX0ifQ" style=3D"display:inline-block;text-decoration:no=
+ne;background:#10A37F;border-radius:3px;color:white;font-family: Helvetica,=
+ sans-serif;font-size:16px;line-height: 24px;font-weight:400;padding:12px 2=
+0px 11px;margin:0px;" target=3D"_blank">
+                    Verify email address
+                </a>
+                </p>
+            </div>
+=09=09=09<div class=3D"footer" style=3D"text-align: left;background: #fffff=
+f;color:#6e6e80; padding: 0 20px 20px;font-size: 13px;line-height: 1.4;">
+=09=09=09=09<p style=3D"-webkit-text-size-adjust: 100%;-ms-text-size-adjust=
+: 100%; margin: 0;">
+                This link will expire in 5 days. If you did not make this r=
+equest, please disregard this email. For help, contact us through our <a hr=
+ef=3D"https://mandrillapp.com/track/click/31165340/help.openai.com?p=3DeyJz=
+IjoiRXZ4Q3F4RUhwVEY4Qmo1bUlUaVR2bDB0TE4wIiwidiI6MSwicCI6IntcInVcIjozMTE2NTM=
+0MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2hlbHAub3BlbmFpLmNvbVwiLFwiaW=
+RcIjpcIjVkYWIxZThjNDcyYjQxMTU5YmRkNWU1YjUyYzFjMTgzXCIsXCJ1cmxfaWRzXCI6W1wiZ=
+TdhNGY4ZGRlNGRmZWMyZmIwNDA3NmZiNjlhZTFmYTFkOWY4ZmQ3M1wiXX0ifQ">Help center<=
+/a>.
+=09=09=09=09</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </center>
+  <img src=3D"https://mandrillapp.com/track/open.php?u=3D31165340&id=3D5dab=
+1e8c472b41159bdd5e5b52c1c183" height=3D"1" width=3D"1" alt=3D""></body>
+</html>
+
+--_av-qqz-lNjHBMTbQDDG-xGoLw--
+

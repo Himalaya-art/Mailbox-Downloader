@@ -1,0 +1,904 @@
+Received: from a59-51.smtp-out.us-west-2.amazonses.com (a59-51.smtp-out.us-west-2.amazonses.com [54.240.59.51])
+	by newxmmxszc6-6.qq.com (NewMX) with SMTP id 75D28289
+	for <3297839541@qq.com>; Sat, 24 Dec 2022 21:29:29 +0800
+X-QQ-mid: xmmxszc6-6t1671888569tu9ffxy8o
+X-QQ-CSender: 0101018544530120-ec8f88b1-4354-4e7a-a3f5-98f05890cfe3-000000@mai
+	 l.firefox.com
+X-QQ-XMAILINFO: MTyvyLqh9yTflLOowBytwQXpX1nE2Rfi8JYAoQkwZ+h5MyUMs2ibnc3vmZIunJ
+	 S0sWWtLhYNyXNBS0uMZv/D62DzKqbnebIbh4Mrlo6eb7yKpiBhSoT/2QhQyMqusWWvtWVFIvsx50
+	 3uOr21+++FGF5Al9SUuvBqB5C76eXRK76qIwxvCWX1UaTeLJ0A5QL7x3caNz8ivew7sbGZso+bf9
+	 s0la0bdGMtNRPA3MbZn4sOzQ9Z0VM0moR1GjXPpKa166kLvkQAESLCa5XmvFAzZHx2V5RrsA2zcQ
+	 I20C8WtLBjLVVhR7U+26atfbJNYuP676lXiOiyY7/QAvvquojsqGhk3bC7LWQ1j6fmWmvlMRbvJQ
+	 abTx3vSv1pV4HISklcl+fvF+Naq7NFiFpjkc1m/mZfphBPIawaJTtX961oB7HB8RdF2T7Vq6myhG
+	 i+FmncFhCXqTgLrr4MngKpkjnfMMr2iYrO6aCMDJ1NlR1c1LbDvnlaBLfPyS3aYzRrFc8FbRg8xY
+	 gTwBl76bpm02gPQD9gvj6yCaGSKUfE/++DlO/ZjPuEow7RkJLGgxdY/lXfWp+5DepX4Lz2YP2xI0
+	 Nkcia3QmiA7GxRh1tVkut69WQhCOiQG2ZsKbM5AtA+78iDcueg4p5kOm7VHS+U/N38Ui5wSpzDuU
+	 mk42w2v9XM5u2lVyw3B13NxZswbxAeuSvl5eGqpPZ/YD3MGd4zbCTC5uf8GzEwYQMM/0WUmbbVh2
+	 EmIMkT1k2zDcAvdItM944iBu6dOlggHAankF5IlIQeF+T7v3m49kKZqdWxn219eJfsZfLenexsG8
+	 WAiJU5ARJj0Sa+9xjEaK/25vadhGqGBJMXR5rdk5tevN+0EE2CpyMHYlZmt1VWqw6d6xtV/mVbVs
+	 seXRKkLZv/MJsdK0u9s1copsEC0Og2W1hDzQnIsKmXD5qxy8WcyJhxWaIIQIiZNXE4chEXSmTYP2
+	 JSflLsreCzI7wGNxcuNO5NJuzARqr9bw+Ik4MVOd4GB6h+uKYP+2lzLmOTJe+280ZDuI89exjaUH
+	 nW2bQiB7I3t8L9sVdL/JhgvGzYX2Dm1ER7yDWRbzsG5HoY58Dgm07fy4QhDJX9i4rcLSlcqn2fXt
+	 hLfDFTjXejK2w3AqVxAeVDxdci6rBJyv61VtUf+tKsj3yMReCsMvTDwEIsdM6TjZzYdLG2FinpYj
+	 wmWUvciIfStCdjwfg4WeRI+aeydoVAqaNJDp1dvZjGGWcTI7hUliZQQ+xwFAKsJIPQZNMJfo/aMH
+	 1oV5s9uGtD0wUiX9miygTIuxuJWT28pCVsQfopsI2kfMuXQIzBXNS1tZ5dJQQ+An34NA==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6ujb3doj4mwbngmp2xjutilwl4zbdio3; d=firefox.com; t=1671888568;
+	h=Content-Type:From:Sender:To:Subject:Message-ID:Date:MIME-Version;
+	bh=p6UFPoA3TFMt1D55oGPcOygOPvs41dJQhdatcYvooBI=;
+	b=TLoU3TE6FWk2q9lO/D8GaWOzuSIwu9v5HdG128rPvUboXiYqyYF/sH6sR7B7PxcQ
+	dRIFs6S3oYEJOX18XIgSHSKw5+FWfABYXCezh/gjdFZKgkAR0ocb0C4AjczTlqrTJWc
+	EDaf/us0F1Xs+rZrD9jciNWUuejRKycB8P0hOtZ0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=gdwg2y3kokkkj5a55z2ilkup5wp5hhxx; d=amazonses.com; t=1671888568;
+	h=Content-Type:From:Sender:To:Subject:Message-ID:Date:MIME-Version:Feedback-ID;
+	bh=p6UFPoA3TFMt1D55oGPcOygOPvs41dJQhdatcYvooBI=;
+	b=CxOHmgG1qk89QF3mCVBTg9TF0ovVnQSJ1MuL3Ryz/s5sWiCUV7uuSXJcHBELtnG7
+	2oosunpaL4dJ6ecMGJyg3htdcPfTbKt3EyEzix9SQdvUsprR6SH8KVDIkQtMUrj9WnB
+	1phpfz12/auzCEA8deUCTo7rykYmUmQLRWoUY8XM=
+Content-Type: multipart/alternative;
+ boundary="--_NmP-3a3023e08999fa06-Part_1"
+Content-Language: zh-CN
+X-Template-Name: postVerify
+X-Template-Version: 8
+X-Link:
+ https://accounts.firefox.com/connect_another_device?utm_medium=email&utm_campaign=fx-account-verified&utm_content=fx-connect-device
+X-Service-ID: sync
+X-Uid: 51a66404d9f946f4a8f3a501fcaec8fb
+From: Firefox Accounts <accounts@firefox.com>
+Sender: Firefox Accounts <accounts@firefox.com>
+To: 3297839541@qq.com
+Subject: =?UTF-8?Q?=E6=AC=A2=E8=BF=8E=E4=BD=BF=E7=94=A8_Fir?=
+ =?UTF-8?Q?efox=EF=BC=81?=
+Message-ID: <0101018544530120-ec8f88b1-4354-4e7a-a3f5-98f05890cfe3-000000@us-west-2.amazonses.com>
+Date: Sat, 24 Dec 2022 13:29:28 +0000
+MIME-Version: 1.0
+Feedback-ID: 1.us-west-2.9obwqSuHxAmNPKpejVDo3cEAmnSHOVLO3+B/64gdyXQ=:AmazonSES
+X-SES-Outgoing: 2022.12.24-54.240.59.51
+
+----_NmP-3a3023e08999fa06-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=E6=88=91=E4=BB=AC=E5=BE=88=E9=AB=98=E5=85=B4=E8=A7=81=E5=88=B0=E6=82=A8=
+=EF=BC=81
+
+=E6=83=B3=E5=9C=A8=E4=B8=A4=E5=8F=B0=E8=AE=BE=E5=A4=87=
+=E4=B8=8A=E7=9C=8B=E5=88=B0=E7=9B=B8=E5=90=8C=E7=9A=84=E6=A0=87=E7=AD=BE=
+=E5=90=97=EF=BC=9F
+
+=E5=BE=88=E7=AE=80=E5=8D=95=EF=BC=81=E5=8F=AA=
+=E9=9C=80=E5=9C=A8=E5=8F=A6=E4=B8=80=E5=8F=B0=E8=AE=BE=E5=A4=87=E4=B8=8A=
+=E5=AE=89=E8=A3=85 Firefox =E5=B9=B6=E7=99=BB=E5=BD=95=EF=BC=8C=E5=8D=B3=
+=E5=8F=AF=E8=BF=9B=E8=A1=8C=E5=90=8C=E6=AD=A5=E3=80=82=E5=B0=B1=E5=83=8F=
+=E9=AD=94=E6=B3=95=E4=B8=80=E6=A0=B7=EF=BC=81
+
+=EF=BC=88=E5=98=98=
+=E2=80=A6=E2=80=A6 =E8=BF=99=E4=B9=9F=E6=84=8F=E5=91=B3=E7=9D=80=E6=82=A8=
+=E5=8F=AF=E4=BB=A5=E5=9C=A8=E4=BB=BB=E4=BD=95=E5=9C=B0=E6=96=B9=E7=99=BB=
+=E5=BD=95=E8=8E=B7=E5=8F=96=E6=82=A8=E7=9A=84=E4=B9=A6=E7=AD=BE=E3=80=81=
+=E5=AF=86=E7=A0=81=E5=92=8C=E5=85=B6=E4=BB=96 Firefox =
+=E6=95=B0=E6=8D=AE=E3=80=82=EF=BC=89
+
+=E8=BF=9E=E6=8E=A5=E5=85=B6=
+=E4=BB=96=E8=AE=BE=E5=A4=87=EF=BC=9A
+https://accounts.firefox.=
+com/connect_another_device?utm_medium=3Demail&utm_campaign=3Dfx-account-ver=
+ified&utm_content=3Dfx-connect-device
+
+=E8=BF=99=E6=98=AF=E4=B8=80=
+=E5=B0=81=E8=87=AA=E5=8A=A8=E5=8F=91=E9=80=81=E7=9A=84=E7=94=B5=E5=AD=90=
+=E9=82=AE=E4=BB=B6=E3=80=82=E5=A6=82=E6=9E=9C=E6=82=A8=E9=94=99=E8=AF=AF=
+=E5=9C=B0=E6=94=B6=E5=88=B0=E5=AE=83=EF=BC=8C=E6=82=A8=E6=97=A0=E9=9C=80=
+=E6=89=A7=E8=A1=8C=E4=BB=BB=E4=BD=95=E6=93=8D=E4=BD=9C=E3=80=82
+
+=E8=8E=B7=E5=8F=96=E6=9B=B4=E5=A4=9A=E4=BF=A1=E6=81=AF=EF=BC=8C=E8=AF=B7=
+=E8=AE=BF=E9=97=AE Mozilla =E7=94=A8=E6=88=B7=E6=94=AF=E6=8C=81=EF=BC=9Ahtt=
+ps://support.mozilla.org/kb/im-having-problems-my-firefox-account?=
+utm_medium=3Demail&utm_campaign=3Dfx-account-verified&utm_content=3Dfx-supp=
+ort=E3=80=82
+
+Mozilla. 2 Harrison St, #175, San Francisco, CA 94105
+
+Mozilla =E9=9A=90=E7=A7=81=E6=94=BF=E7=AD=96
+https://www.mozilla.=
+org/privacy?utm_medium=3Demail&utm_campaign=3Dfx-account-verified&utm_conte=
+nt=3Dfx-privacy
+
+Firefox Cloud =E6=9C=8D=E5=8A=A1=E6=9D=A1=E6=AC=BE
+https://www.mozilla.org/about/legal/terms/services/
+
+----_NmP-3a3023e08999fa06-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head>
+    <title>
+      =E6=AC=A2=E8=BF=8E=E4=BD=BF=E7=94=A8 Firefox=EF=BC=81
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=3D"X-UA-Compatibl=
+e" content=3D"IE=3Dedge">
+    <!--<![endif]-->
+    <meta =
+http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, =
+initial-scale=3D1">
+    <style type=3D"text/css">
+      #outlook a { =
+padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;=
+-ms-text-size-adjust:100%; }
+      table, td { border-collapse:collapse;mso=
+-table-lspace:0pt;mso-table-rspace:0pt; }
+      img { =
+border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-m=
+s-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      =
+<o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !=
+important; }
+    </style>
+    <![endif]-->
+   =20
+      <!--[if !mso]><!-->
+        <link href=3D"https://fonts.googleapis.com/css?family=3DUbuntu:300,=
+400,500,700" rel=3D"stylesheet" type=3D"text/css">
+        <style =
+type=3D"text/css">
+          @import url(https://fonts.googleapis.com/css?=
+family=3DUbuntu:300,400,500,700);
+        </style>
+      <!--<![endif]-->
+
+   =20
+   =20
+    <style type=3D"text/css">
+      @media only screen and =
+(min-width:480px) {
+        .mj-column-per-100 { width:100% !important; =
+max-width: 100%; }
+.mj-column-per-50 { width:50% !important; max-width: =
+50%; }
+      }
+    </style>
+    <style media=3D"screen and =
+(min-width:480px)">
+      .moz-text-html .mj-column-per-100 { width:100% !=
+important; max-width: 100%; }
+.moz-text-html .mj-column-per-50 { width:50% =
+!important; max-width: 50%; }
+    </style>
+   =20
+ =20
+    <style type=3D"text/css">
+   =20
+   =20
+
+    @media only screen and =
+(max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !=
+important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+ =20
+    </style>
+    <style type=3D"text/css">
+    .ltr div {
+  direction: ltr !important;
+}
+.ltr td {
+  direction: ltr !important;
+}
+
+.rtl div {
+  direction: rtl !important;
+}
+.rtl td {
+  direction: rtl !important;
+}
+    </style>
+    <meta =
+http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+
+  </head>
+  <body style=3D"word-spacing:normal;">
+   =20
+   =20
+      <div class=3D"body" style=3D"max-width: 310px; margin: 0px auto;">
+       =20
+     =20
+      <!--[if mso | IE]><table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+role=3D"presentation" style=3D"width:600px;" width=3D"600" ><tr><td =
+style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><!=
+[endif]-->
+   =20
+     =20
+      <div style=3D"margin:0px =
+auto;max-width:600px;">
+       =20
+        <table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"width:100%;">
+          <tbody>
+            <tr>
+              <td style=3D"direction: ltr; font-size: 0px; text-align: =
+center; padding: 0px;" align=3D"center">
+                <!--[if mso | =
+IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:600p=
+x;" ><![endif]-->
+           =20
+      <div class=3D"mj-column-per-100 =
+mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;=
+display:inline-block;vertical-align:top;width:100%;">
+       =20
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+        <tbody>
+         =20
+              <tr>
+                <td =
+align=3D"center" class=3D"fxa-logo" style=3D"font-size: 0px; word-break: =
+break-word; padding: 20px 0px; height: 60px; margin: 0 auto; display: =
+block;" height=3D"60">
+                 =20
+      <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse:collapse;border-spacing:0px;">
+        <tbody>
+          <tr>
+            <td style=3D"width: 60px; padding: 0px;" =
+data-l10n-id=3D"fxa-header-firefox-logo" width=3D"60"><img alt=3D"Firefox =
+=E5=BE=BD=E6=A0=87" height=3D"auto" src=3D"https://accounts-static.cdn.=
+mozilla.net/product-icons/firefox-logo.png" style=3D"border:0;display:block=
+;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" =
+width=3D"60" data-l10n-name=3D"fxa-logo"></td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><!=
+[endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+role=3D"presentation" style=3D"width:600px;" width=3D"600" ><tr><td =
+style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><!=
+[endif]-->
+   =20
+     =20
+      <div style=3D"margin:0px =
+auto;max-width:600px;">
+       =20
+        <table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"width:100%;">
+          <tbody>
+            <tr>
+              <td style=3D"direction: ltr; font-size: 0px; text-align: =
+center; padding: 0px;" align=3D"center">
+                <!--[if mso | =
+IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:600p=
+x;" ><![endif]-->
+           =20
+      <div class=3D"mj-column-per-100 =
+mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;=
+display:inline-block;vertical-align:top;width:100%;">
+       =20
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+        <tbody>
+         =20
+              <tr>
+                <td =
+align=3D"left" class=3D"text-header" style=3D"font-size: 0px; word-break: =
+break-word; padding: 0px;">
+                 =20
+      <div style=3D"color:=
+ #000000; font-size: 20px; line-height: 28px; font-family: sans-serif; =
+margin-bottom: 12px; text-align: center;"><span data-l10n-id=3D"postVerify-=
+sub-title-3">=E6=88=91=E4=BB=AC=E5=BE=88=E9=AB=98=E5=85=B4=E8=A7=81=
+=E5=88=B0=E6=82=A8=EF=BC=81</span></div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td align=3D"left" class=3D"text-sub-body" =
+style=3D"font-size: 0px; word-break: break-word; padding: 0px;">
+                 =20
+      <div style=3D"color: #000000; font-size: 14px; =
+line-height: 20px; font-family: sans-serif; margin-bottom: 12px; =
+text-align: center;"><span data-l10n-id=3D"postVerify-title-2">=E6=83=B3=
+=E5=9C=A8=E4=B8=A4=E5=8F=B0=E8=AE=BE=E5=A4=87=E4=B8=8A=E7=9C=8B=E5=88=B0=
+=E7=9B=B8=E5=90=8C=E7=9A=84=E6=A0=87=E7=AD=BE=E5=90=97=EF=BC=9F</span></div=
+>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td align=3D"center" class=3D"sync-logo"=
+ style=3D"font-size: 0px; word-break: break-word; padding: 0px;">
+                 =20
+      <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse:collapse;b=
+order-spacing:0px;">
+        <tbody>
+          <tr>
+            <td style=3D"width: 240px; padding: 0px;" =
+data-l10n-id=3D"body-devices-image" width=3D"240"><img =
+alt=3D"=E8=AE=BE=E5=A4=87" height=3D"auto" src=3D"https://accounts-static.=
+cdn.mozilla.net/other/graphic-laptop-mobile.png" style=3D"margin: 0 auto; =
+border: 0; display: block; outline: none; text-decoration: none; height: =
+auto; width: 100%; font-size: 13px; margin-top: 8px; margin-bottom: 20px;" =
+width=3D"240" data-l10n-name=3D"devices-image"></td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><!=
+[endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+role=3D"presentation" style=3D"width:600px;" width=3D"600" ><tr><td =
+style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><!=
+[endif]-->
+   =20
+     =20
+      <div style=3D"margin:0px =
+auto;max-width:600px;">
+       =20
+        <table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"width:100%;">
+          <tbody>
+            <tr>
+              <td style=3D"direction: ltr; font-size: 0px; text-align: =
+center; padding: 0px;" align=3D"center">
+                <!--[if mso | =
+IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:600p=
+x;" ><![endif]-->
+           =20
+      <div class=3D"mj-column-per-100 =
+mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;=
+display:inline-block;vertical-align:top;width:100%;">
+       =20
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+        <tbody>
+         =20
+              <tr>
+                <td =
+align=3D"left" class=3D"text-body" style=3D"font-size: 0px; word-break: =
+break-word; padding: 0px;">
+                 =20
+      <div style=3D"color:=
+ #000000; font-size: 14px; line-height: 20px; font-family: sans-serif; =
+margin-bottom: 20px; text-align: center;"><span data-l10n-id=3D"postVerify-=
+description-2">=E5=BE=88=E7=AE=80=E5=8D=95=EF=BC=81=E5=8F=AA=E9=9C=80=
+=E5=9C=A8=E5=8F=A6=E4=B8=80=E5=8F=B0=E8=AE=BE=E5=A4=87=E4=B8=8A=E5=AE=89=
+=E8=A3=85 Firefox =E5=B9=B6=E7=99=BB=E5=BD=95=EF=BC=8C=E5=8D=B3=E5=8F=AF=
+=E8=BF=9B=E8=A1=8C=E5=90=8C=E6=AD=A5=E3=80=82=E5=B0=B1=E5=83=8F=E9=AD=94=
+=E6=B3=95=E4=B8=80=E6=A0=B7=EF=BC=81</span></div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td align=3D"left" class=3D"text-body" style=3D"font-size: =
+0px; word-break: break-word; padding: 0px;">
+                 =20
+      <div style=3D"color: #000000; font-size: 14px; line-height: 20px; =
+font-family: sans-serif; margin-bottom: 20px; text-align: center;"><span =
+data-l10n-id=3D"postVerify-sub-description">=EF=BC=88=E5=98=98=E2=80=A6=
+=E2=80=A6 =E8=BF=99=E4=B9=9F=E6=84=8F=E5=91=B3=E7=9D=80=E6=82=A8=E5=8F=AF=
+=E4=BB=A5=E5=9C=A8=E4=BB=BB=E4=BD=95=E5=9C=B0=E6=96=B9=E7=99=BB=E5=BD=95=
+=E8=8E=B7=E5=8F=96=E6=82=A8=E7=9A=84=E4=B9=A6=E7=AD=BE=E3=80=81=E5=AF=86=
+=E7=A0=81=E5=92=8C=E5=85=B6=E4=BB=96 Firefox =E6=95=B0=E6=8D=AE=E3=80=82=
+=EF=BC=89</span></div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | =
+IE]></td></tr></table><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" =
+style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div style=3D"margin:0px auto;max-width:600px;">
+       =20
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;">
+          <tbody>
+            <tr>
+              <td style=3D"direction: =
+ltr; font-size: 0px; text-align: center; padding: 0px;" align=3D"center">
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" =
+style=3D"vertical-align:top;width:600px;" ><![endif]-->
+           =20
+      <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+       =20
+      <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"vertical-align:top;" width=3D"100%">
+        <tbody>
+         =20
+              <tr>
+                <td align=3D"center" =
+vertical-align=3D"middle" class=3D"primary-button" style=3D"font-size: 0px;=
+ word-break: break-word; padding: 0px; height: 56px; width: 310px;" =
+width=3D"310" height=3D"56">
+                 =20
+      <table border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"border-collapse:separate;line-height:100%;">
+        <tbody>
+          <tr>
+            <td align=3D"center" bgcolor=3D"#414141" =
+role=3D"presentation" style=3D"border: none; border-radius: 3px; cursor: =
+auto; mso-padding-alt: 10px 25px; background: #414141; padding: 0px;" =
+valign=3D"middle">
+              <a href=3D"https://accounts.firefox.=
+com/connect_another_device?utm_medium=3Demail&amp;utm_campaign=3Dfx-account=
+-verified&amp;utm_content=3Dfx-connect-device" style=3D"display: =
+inline-block; color: #ffffff; font-weight: normal; margin: 0; =
+text-decoration: none; text-transform: none; mso-padding-alt: 0px; =
+font-size: 18px; line-height: 28px; font-family: sans-serif; background: =
+#0060df; width: 310px; padding: 16px 0px; border-radius: 4px;" =
+target=3D"_blank">
+                <span data-l10n-id=3D"postVerify-action-=
+2">=E8=BF=9E=E6=8E=A5=E5=8F=A6=E4=B8=80=E5=8F=B0=E8=AE=BE=E5=A4=87</span>
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | =
+IE]></td></tr></table><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" =
+style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div style=3D"margin:0px auto;max-width:600px;">
+       =20
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;">
+          <tbody>
+            <tr>
+              <td style=3D"direction: =
+ltr; font-size: 0px; text-align: center; padding: 0px;" align=3D"center">
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"app-badges-outlook" =
+style=3D"width:600px;" ><![endif]-->
+           =20
+      <div class=3D"mj-column-per-100 mj-outlook-group-fix app-badges" =
+style=3D"font-size: 0; line-height: 0; display: inline-block; width: 100%; =
+direction: ltr; max-width: 310px; text-align: center;">
+        <!--[if mso | IE]><table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" ><tr><td style=3D"vertical-align:to=
+p;width:300px;" ><![endif]-->
+               =20
+      <div =
+class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"font-size:0px;text=
+-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%=
+;">
+       =20
+      <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" =
+width=3D"100%">
+        <tbody>
+         =20
+              <tr>
+                <td align=3D"center" class=3D"app-badge app-badge-ios" =
+style=3D"font-size: 0px; word-break: break-word; padding: 40px 0px 20px;">
+                 =20
+      <table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse:collapse;b=
+order-spacing:0px;">
+        <tbody>
+          <tr>
+            <td style=3D"width: 152px; padding: 0px;" width=3D"152">
+             =20
+        <a href=3D"https://app.adjust.com/2uo1qc?=
+campaign=3Dfxa-conf-email&amp;adgroup=3Dios&amp;creative=3Dbutton&amp;fallb=
+ack=3Dhttps%3A%2F%2Fitunes.apple.com%2Fapp%2Fapple-store%2Fid989804926%3Fpt=
+%3D373246%26ct%3Dadjust_tracker%26mt%3D8&amp;utm_source=3Demail&amp;utm_med=
+ium=3Demail&amp;utm_campaign=3Dfx-account-verified&amp;utm_content=3Dfx-con=
+nect-ios" target=3D"_blank" data-l10n-id=3D"body-ios-badge" =
+data-l10n-args=3D"{&quot;productName&quot;:&quot;Firefox&quot;}"><img =
+alt=3D"=E5=88=B0 App Store =E4=B8=8B=E8=BD=BD Firefox" height=3D"44" =
+src=3D"https://accounts-static.cdn.mozilla.net/product-icons/apple-app-stor=
+e.png" style=3D"border: 0; display: block; outline: none; text-decoration: =
+none; width: 100%; font-size: 13px; height: 44px; margin: 0 auto;" =
+width=3D"152" data-l10n-name=3D"apple-app-badge"></a>
+     =20
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+              <!--[if mso | =
+IE]></td><td style=3D"vertical-align:top;width:300px;" ><![endif]-->
+               =20
+      <div class=3D"mj-column-per-50 =
+mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;=
+display:inline-block;vertical-align:top;width:50%;">
+       =20
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+        <tbody>
+         =20
+              <tr>
+                <td =
+align=3D"center" class=3D"app-badge app-badge-android" style=3D"font-size: =
+0px; word-break: break-word; padding: 40px 0px 20px;">
+                 =20
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;=
+">
+        <tbody>
+          <tr>
+            <td style=3D"width: 152px; =
+padding: 0px;" width=3D"152">
+             =20
+        <a =
+href=3D"https://app.adjust.com/2uo1qc?campaign=3Dfxa-conf-email&amp;adgroup=
+=3Dandroid&amp;creative=3Dbutton&amp;utm_source=3Demail&amp;utm_medium=3Dem=
+ail&amp;utm_campaign=3Dfx-account-verified&amp;utm_content=3Dfx-connect-and=
+roid" target=3D"_blank" data-l10n-id=3D"body-android-badge" =
+data-l10n-args=3D"{&quot;productName&quot;:&quot;Firefox&quot;}"><img =
+alt=3D"=E5=88=B0 Google Play =E4=B8=8B=E8=BD=BD Firefox" height=3D"44" =
+src=3D"https://accounts-static.cdn.mozilla.net/product-icons/google-play.=
+png" style=3D"border: 0; display: block; outline: none; text-decoration: =
+none; width: 100%; font-size: 13px; height: 44px; margin: 0 auto;" =
+width=3D"152" data-l10n-name=3D"google-play-badge"></a>
+     =20
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+              <!--[if mso | =
+IE]></td></tr></table><![endif]-->
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | =
+IE]></td></tr></table><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" =
+style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div style=3D"margin:0px auto;max-width:600px;">
+       =20
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;">
+          <tbody>
+            <tr>
+              <td style=3D"direction: =
+ltr; font-size: 0px; text-align: center; padding: 0px;" align=3D"center">
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" =
+style=3D"vertical-align:top;width:600px;" ><![endif]-->
+           =20
+      <div class=3D"mj-column-per-100 mj-outlook-group-fix" =
+style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;v=
+ertical-align:top;width:100%;">
+       =20
+      <table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"vertical-align:top;" width=3D"100%">
+        <tbody>
+         =20
+              <tr>
+                <td align=3D"left" =
+class=3D"text-footer-appBadges" style=3D"font-size: 0px; word-break: =
+break-word; padding: 0px;">
+                 =20
+      <div =
+style=3D"font-size: 13px; line-height: 1; font-family: sans-serif; =
+text-align: center; color: #6d6d6e;"><span data-l10n-id=3D"another-device-2=
+" data-l10n-args=3D"{&quot;productName&quot;:&quot;Firefox&quot;}">=
+=E5=9C=A8<a href=3D"https://accounts.firefox.com/connect_another_device?=
+utm_medium=3Demail&amp;utm_campaign=3Dfx-account-verified&amp;utm_content=
+=3Dfx-connect-device" class=3D"link-blue" data-l10n-name=3D"anotherDeviceLi=
+nk" style=3D"color: #0060df; text-decoration: none; font-family: =
+sans-serif;">=E5=85=B6=E4=BB=96=E8=AE=BE=E5=A4=87</a>=E4=B8=8A=E5=AE=89=
+=E8=A3=85 Firefox</span></div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><!=
+[endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+role=3D"presentation" style=3D"width:600px;" width=3D"600" ><tr><td =
+style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><!=
+[endif]-->
+   =20
+     =20
+      <div style=3D"margin:0px =
+auto;max-width:600px;">
+       =20
+        <table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"width:100%;">
+          <tbody>
+            <tr>
+              <td style=3D"direction: ltr; font-size: 0px; text-align: =
+center; padding: 0px;" align=3D"center">
+                <!--[if mso | =
+IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:600p=
+x;" ><![endif]-->
+           =20
+      <div class=3D"mj-column-per-100 =
+mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;=
+display:inline-block;vertical-align:top;width:100%;">
+       =20
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+        <tbody>
+         =20
+              <tr>
+                <td =
+align=3D"left" class=3D"text-footer-automatedEmail" style=3D"font-size: =
+0px; word-break: break-word; padding: 0px;">
+                 =20
+      <div style=3D"font-size: 12px; line-height: 18px; font-family: =
+sans-serif; margin-top: 40px; margin-bottom: 12px; text-align: center; =
+color: #6d6d6e;"><span data-l10n-id=3D"automated-email-no-action">=
+=E8=BF=99=E6=98=AF=E4=B8=80=E5=B0=81=E8=87=AA=E5=8A=A8=E5=8F=91=E9=80=81=
+=E7=9A=84=E7=94=B5=E5=AD=90=E9=82=AE=E4=BB=B6=E3=80=82=E5=A6=82=E6=9E=9C=
+=E6=82=A8=E9=94=99=E8=AF=AF=E5=9C=B0=E6=94=B6=E5=88=B0=E5=AE=83=EF=BC=8C=
+=E6=82=A8=E6=97=A0=E9=9C=80=E6=89=A7=E8=A1=8C=E4=BB=BB=E4=BD=95=E6=93=8D=
+=E4=BD=9C=E3=80=82 =E8=8E=B7=E5=8F=96=E6=9B=B4=E5=A4=9A=E4=BF=A1=E6=81=AF=
+=EF=BC=8C=E8=AF=B7=E8=AE=BF=E9=97=AE <a class=3D"link-blue" =
+href=3D"https://support.mozilla.org/kb/im-having-problems-my-firefox-accoun=
+t?utm_medium=3Demail&amp;utm_campaign=3Dfx-account-verified&amp;utm_content=
+=3Dfx-support" data-l10n-name=3D"supportLink" style=3D"color: #0060df; =
+text-decoration: none; font-family: sans-serif;">Mozilla =
+=E7=94=A8=E6=88=B7=E6=94=AF=E6=8C=81</a>=E3=80=82</span></div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | =
+IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" =
+role=3D"presentation" style=3D"width:600px;" width=3D"600" ><tr><td =
+style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><!=
+[endif]-->
+   =20
+     =20
+      <div style=3D"margin:0px =
+auto;max-width:600px;">
+       =20
+        <table align=3D"center" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" =
+style=3D"width:100%;">
+          <tbody>
+            <tr>
+              <td style=3D"direction: ltr; font-size: 0px; text-align: =
+center; padding: 0px;" align=3D"center">
+                <!--[if mso | =
+IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:600p=
+x;" ><![endif]-->
+           =20
+      <div class=3D"mj-column-per-100 =
+mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;=
+display:inline-block;vertical-align:top;width:100%;">
+       =20
+      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+        <tbody>
+         =20
+              <tr>
+                <td =
+align=3D"left" class=3D"text-footer" style=3D"font-size: 0px; word-break: =
+break-word; padding: 0px;">
+                 =20
+      <div =
+style=3D"font-size: 12px; line-height: 18px; font-family: sans-serif; =
+text-align: center; color: #6d6d6e;">Mozilla. 2 Harrison St, #175, San =
+Francisco, CA 94105</div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td align=3D"left" =
+class=3D"text-footer" style=3D"font-size: 0px; word-break: break-word; =
+padding: 0px;">
+                 =20
+      <div style=3D"font-size: 12px; =
+line-height: 18px; font-family: sans-serif; text-align: center; color: =
+#6d6d6e;"><a class=3D"link-blue" data-l10n-id=3D"fxa-privacy-url" =
+href=3D"https://www.mozilla.org/privacy?utm_medium=3Demail&amp;utm_campaign=
+=3Dfx-account-verified&amp;utm_content=3Dfx-privacy" style=3D"color: =
+#0060df; text-decoration: none; font-family: sans-serif;">Mozilla =
+=E9=9A=90=E7=A7=81=E6=94=BF=E7=AD=96</a></div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td align=3D"left" class=3D"text-footer" =
+style=3D"font-size: 0px; word-break: break-word; padding: 0px;">
+                 =20
+      <div style=3D"font-size: 12px; line-height: =
+18px; font-family: sans-serif; text-align: center; color: #6d6d6e;"><a =
+class=3D"link-blue" data-l10n-id=3D"fxa-service-url" href=3D"https://www.=
+mozilla.org/about/legal/terms/services/" style=3D"color: #0060df; =
+text-decoration: none; font-family: sans-serif;">Firefox Cloud =
+=E6=9C=8D=E5=8A=A1=E6=9D=A1=E6=AC=BE</a></div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><!=
+[endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+   =20
+   =20
+      </div>
+   =20
+ =20
+
+  </body></html>
+----_NmP-3a3023e08999fa06-Part_1--
